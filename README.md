@@ -25,19 +25,21 @@
 <h2>FAQ：</h2>
 <ul>
 <li>1、服務 Apache2.4 無法啟動
-答：
-　可能是沒有安裝 require/2012_vcredist_x86.exe
-　手動執行 
-cmd
-c:\wamp\php\php.exe -m 
+<br>
+  答：<br>
+　可能是沒有安裝 require/2012_vcredist_x86.exe<br>
+　手動執行 <br>
+cmd<br>
+c:\wamp\php\php.exe -m <br>
 看看有什麼錯誤訊息
 </li>
 <li>
-2、SQLSRV 如果無法掛載
-答：
-　用瀏覽器看 http://localhost/t.php  
-　t.php 內容只是 <?php phpinfo();
-　主要是看 ext 的位置對不對，應該要指到 C:\wamp\php\ext
+2、SQLSRV 無法掛載
+  <br>
+答：<br>
+　用瀏覽器看 http://localhost/t.php  <br>
+　t.php 內容只是 <?php phpinfo();<br>
+　主要是看 ext 的位置對不對，應該要指到 C:\wamp\php\ext<br>
 </li>
 </ul>
 
