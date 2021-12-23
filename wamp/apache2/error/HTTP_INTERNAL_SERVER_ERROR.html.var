@@ -85,11 +85,11 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="Error del Servidor!" -->
+<!--#set var="TITLE" value="&iexcl;Error del servidor!" -->
 <!--#include virtual="include/top.html" -->
 
-    Se produjo un error interno en el servidor y le
-   fue imposible completar su solicitud.
+    Se ha producido un error interno en el servidor y no
+    se ha podido completar su solicitud.
 
    <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
 
@@ -99,8 +99,10 @@ Body:----------es--
 
    <!--#else -->
 
-    El servidor puede estar sobrecargado, o hubo un
-    error en la ejecuci&oacute;n de un programa 'CGI'.
+    Se ha producido un error interno en el servidor y no se
+    ha podido completar su solicitud. O el servidor est&aacute;
+    sobrecargado o ha habido un fallo en la ejecuci&oacute;n de 
+    un programa CGI.
 
   <!--#endif -->
 
@@ -274,6 +276,34 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Serverfeil!"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+ 
+    Det inntraff en intern feil hos serveren, og det var ikke mulig å
+    gjennomføre din forespørsel.
+
+    <!--#include virtual="include/spacer.html" -->
+
+    Feilmelding:
+    <br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+
+  <!--#else -->
+
+    Det inntraff en intern feil hos serveren, og det var ikke mulig å
+    gjennomføre din forespørsel. Serveren er enten overbelastet, eller
+    CGI-skriptet inneholder feil.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -386,6 +416,33 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Ошибка сервера!"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+
+    Произошла внутренняя ошибка сервера, в результате которой
+    серверу не удалось завершить обработку Вашего запроса.
+
+    <!--#include virtual="include/spacer.html" -->
+
+    Error message:
+    <br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+
+  <!--#else -->
+
+    Произошла внутренняя ошибка сервера, в результате которой
+    серверу не удалось завершить обработку Вашего запроса.
+    Сервер перегружен, или в CGI-скрипте обнаружена ошибка.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -467,3 +524,53 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="服务器错误！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+
+    服务器发生了内部错误，无法处理您的请求。
+
+    <!--#include virtual="include/spacer.html" -->
+
+    错误信息：
+    <br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+
+  <!--#else -->
+
+    服务器发生了内部错误，无法处理您的请求。原因可能是服务器过载或在 CGI 脚本中出错。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="伺服器错误！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+
+    伺服器發生了內部錯誤，無法處理您的請求。
+
+    <!--#include virtual="include/spacer.html" -->
+
+    錯誤資訊：
+    <br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+
+  <!--#else -->
+
+    伺服器發生了內部錯誤，無法處理您的請求。原因可能是伺服器超載或在 CGI 腳本中出錯。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

@@ -43,13 +43,12 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="Servicio no disponible!" -->
+<!--#set var="TITLE" value="&iexcl;Servicio no disponible!" -->
 <!--#include virtual="include/top.html" -->
 
-   Por el momento el servidor no puede atender su solicitud
-   debido a que est&aacute; en mantenimiento o a que tiene
-   problemas de capacidad. Por favor intente nuevamente
-   m&aacute;s tarde.
+    El servidor no puede procesar su solicitud en este momento
+    debido a tareas de mantenimiento o a problemas de capacidad.
+    Por favor, int&eacute;ntelo de nuevo m&aacute;s tarde.
 
 <!--#include virtual="include/bottom.html" -->
 ----------es--
@@ -138,6 +137,19 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Tjenesten er ikke tilgjengelig!"
+--><!--#include virtual="include/top.html" -->
+
+    Serveren er midlertidig ikke i stand til å utføre din
+    forespørsel. Vennligst prøv igjen senere.
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -194,6 +206,18 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Сервис недоступен!"
+--><!--#include virtual="include/top.html" -->
+
+    Сервер временно не имеет возможности обработать Ваш запрос
+    по техническим причинам. Пожалуйста, повторите позже.
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -236,3 +260,27 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="服务不可用！"
+--><!--#include virtual="include/top.html" -->
+
+    由于服务器维护或负载问题，服务器暂时无法处理您的请求。请稍后重试。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="服務不可用！"
+--><!--#include virtual="include/top.html" -->
+
+    由於伺服器維護或負載問題，伺服器暫時無法處理您的請求。請稍後重試。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

@@ -54,11 +54,11 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="Puerta de enlace err&oacute;nea!" -->
+<!--#set var="TITLE" value="&iexcl;Puerta de enlace err&oacute;nea!" -->
 <!--#include virtual="include/top.html" -->
 
-    El servidor 'proxy' recibi&oacute; informaci&oacute;n
-    inv&aacute;lida del servidor solicitante.
+    El servidor 'proxy' ha recibido; informaci&oacute;n
+    no v&aacute;lida del servidor de origen.
 
    <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
 
@@ -176,6 +176,24 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Ugyldig Gateway!"
+--><!--#include virtual="include/top.html" -->
+
+    Proxyserveren mottok et ugyldig svar fra
+    en oppstrøms server.
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+    <!--#include virtual="include/spacer.html" -->
+    <!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->   
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -247,6 +265,23 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Неверный шлюз!"
+--><!--#include virtual="include/top.html" -->
+
+    Прокси-сервер получил недопустимый ответ от
+    вышестоящего сервера.
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+    <!--#include virtual="include/spacer.html" -->
+    <!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -300,3 +335,37 @@ Body:----------tr--
     
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="错误的网关！"
+--><!--#include virtual="include/top.html" -->
+
+    代理服务器从上游服务器收到了无效的响应。
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+    <!--#include virtual="include/spacer.html" -->
+    <!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+  <!--#endif -->
+    
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="閘道器錯誤！"
+--><!--#include virtual="include/top.html" -->
+
+    代理伺服器從上遊伺服器收到了無效的響應。
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+    <!--#include virtual="include/spacer.html" -->
+    <!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+  <!--#endif -->
+    
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

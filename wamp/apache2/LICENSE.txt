@@ -322,6 +322,40 @@ For the  server\util_md5.c component:
  * WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES.  
  */
 
+
+For the util_pcre.c and ap_regex.h components:
+
+           Copyright (c) 1997-2004 University of Cambridge
+
+-----------------------------------------------------------------------------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+
+    * Neither the name of the University of Cambridge nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-----------------------------------------------------------------------------
+
+
 For the  srclib\apr\include\apr_md5.h component: 
 /*
  * This is work is derived from material Copyright RSA Data Security, Inc.
@@ -472,25 +506,6 @@ For the srclib\apr-util\test\testmd4.c component:
  * documentation and/or software.
  */
 
-For the srclib\apr-util\xml\expat\conftools\install-sh component:
-
-#
-# install - install a program, script, or datafile
-# This comes from X11R5 (mit/util/scripts/install.sh).
-#
-# Copyright 1991 by the Massachusetts Institute of Technology
-#
-# Permission to use, copy, modify, distribute, and sell this software and its
-# documentation for any purpose is hereby granted without fee, provided that
-# the above copyright notice appear in all copies and that both that
-# copyright notice and this permission notice appear in supporting
-# documentation, and that the name of M.I.T. not be used in advertising or
-# publicity pertaining to distribution of the software without specific,
-# written prior permission.  M.I.T. makes no representations about the
-# suitability of this software for any purpose.  It is provided "as is"
-# without express or implied warranty.
-#
-
 For the test\zb.c component:
 
 /*                          ZeusBench V1.01
@@ -501,7 +516,7 @@ This program is Copyright (C) Zeus Technology Limited 1996.
 This program may be used and copied freely providing this copyright notice
 is not removed.
 
-This software is provided "as is" and any express or implied waranties, 
+This software is provided "as is" and any express or implied warranties, 
 including but not limited to, the implied warranties of merchantability and
 fitness for a particular purpose are disclaimed.  In no event shall 
 Zeus Technology Ltd. be liable for any direct, indirect, incidental, special, 
@@ -520,126 +535,6 @@ Thanks to the following people for their input:
 
 */
 
-For the expat xml parser component:
-
-Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
-                               and Clark Cooper
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-	
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
-	
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-====================================================================
-
-For the pcre.dll component:
-
-PCRE LICENCE
-------------
-
-PCRE is a library of functions to support regular expressions whose syntax
-and semantics are as close as possible to those of the Perl 5 language.
-
-Release 8 of PCRE is distributed under the terms of the "BSD" licence, as
-specified below. The documentation for PCRE, supplied in the "doc"
-directory, is distributed under the same terms as the software itself.
-
-The basic library functions are written in C and are freestanding. Also
-included in the distribution is a set of C++ wrapper functions, and a
-just-in-time compiler that can be used to optimize pattern matching. These
-are both optional features that can be omitted when the library is built.
-
-
-THE BASIC LIBRARY FUNCTIONS
----------------------------
-
-Written by:       Philip Hazel
-Email local part: ph10
-Email domain:     cam.ac.uk
-
-University of Cambridge Computing Service,
-Cambridge, England.
-
-Copyright (c) 1997-2013 University of Cambridge
-All rights reserved.
-
-
-PCRE JUST-IN-TIME COMPILATION SUPPORT
--------------------------------------
-
-Written by:       Zoltan Herczeg
-Email local part: hzmester
-Emain domain:     freemail.hu
-
-Copyright(c) 2010-2013 Zoltan Herczeg
-All rights reserved.
-
-
-STACK-LESS JUST-IN-TIME COMPILER
---------------------------------
-
-Written by:       Zoltan Herczeg
-Email local part: hzmester
-Emain domain:     freemail.hu
-
-Copyright(c) 2009-2013 Zoltan Herczeg
-All rights reserved.
-
-
-THE C++ WRAPPER FUNCTIONS
--------------------------
-
-Contributed by:   Google Inc.
-
-Copyright (c) 2007-2012, Google Inc.
-All rights reserved.
-
-
-THE "BSD" LICENCE
------------------
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright notice,
-      this list of conditions and the following disclaimer.
-
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-    * Neither the name of the University of Cambridge nor the name of Google
-      Inc. nor the names of their contributors may be used to endorse or
-      promote products derived from this software without specific prior
-      written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-
-END OF PCRE LICENSE
 
 For the libeay32.dll, ssleay32.dll and openssl.exe components:
 
@@ -647,24 +542,22 @@ For the libeay32.dll, ssleay32.dll and openssl.exe components:
   LICENSE ISSUES
   ==============
 
-  The OpenSSL toolkit stays under a dual license, i.e. both the conditions of
+  The OpenSSL toolkit stays under a double license, i.e. both the conditions of
   the OpenSSL License and the original SSLeay license apply to the toolkit.
-  See below for the actual license texts. Actually both licenses are BSD-style
-  Open Source licenses. In case of any license issues related to OpenSSL
-  please contact openssl-core@openssl.org.
+  See below for the actual license texts.
 
   OpenSSL License
   ---------------
 
 /* ====================================================================
- * Copyright (c) 1998-2011 The OpenSSL Project.  All rights reserved.
+ * Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
  *
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer. 
+ *    notice, this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in
@@ -719,21 +612,21 @@ For the libeay32.dll, ssleay32.dll and openssl.exe components:
  * This package is an SSL implementation written
  * by Eric Young (eay@cryptsoft.com).
  * The implementation was written so as to conform with Netscapes SSL.
- * 
+ *
  * This library is free for commercial and non-commercial use as long as
  * the following conditions are aheared to.  The following conditions
  * apply to all code found in this distribution, be it the RC4, RSA,
  * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
  * included with this distribution is covered by the same copyright terms
  * except that the holder is Tim Hudson (tjh@cryptsoft.com).
- * 
+ *
  * Copyright remains Eric Young's, and as such any Copyright notices in
  * the code are not to be removed.
  * If this package is used in a product, Eric Young should be given attribution
  * as the author of the parts of the library used.
  * This can be in the form of a textual message at program startup or
  * in documentation (online or textual) provided with the package.
- * 
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
@@ -748,10 +641,10 @@ For the libeay32.dll, ssleay32.dll and openssl.exe components:
  *     Eric Young (eay@cryptsoft.com)"
  *    The word 'cryptographic' can be left out if the rouines from the library
  *    being used are not cryptographic related :-).
- * 4. If you include any Windows specific code (or a derivative thereof) from 
+ * 4. If you include any Windows specific code (or a derivative thereof) from
  *    the apps directory (application code) you must include an acknowledgement:
  *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
- * 
+ *
  * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -763,7 +656,7 @@ For the libeay32.dll, ssleay32.dll and openssl.exe components:
  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
- * 
+ *
  * The licence and distribution terms for any publically available version or
  * derivative of this code cannot be changed.  i.e. this code cannot simply be
  * copied and put under another distribution licence
@@ -773,7 +666,7 @@ For the libeay32.dll, ssleay32.dll and openssl.exe components:
 
 For the mod_deflate zlib compression component:
 
- (C) 1995-2013 Jean-loup Gailly and Mark Adler
+ (C) 1995-2017 Jean-loup Gailly and Mark Adler
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -795,20 +688,35 @@ For the mod_deflate zlib compression component:
   jloup@gzip.org          madler@alumni.caltech.edu
 
 
-For the mod_lua language component:
+For the mod_proxy_html and mod_xml2enc components:
 
-Lua License
------------
+Except where otherwise noted in the source code (e.g. the files hash.c,
+list.c and the trio files, which are covered by a similar licence but
+with different Copyright notices) all the files are:
 
-Lua is licensed under the terms of the MIT license reproduced below.
-This means that Lua is free software and can be used for both academic
-and commercial purposes at absolutely no cost.
+ Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.
 
-For details and rationale, see http://www.lua.org/license.html .
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is fur-
+nished to do so, subject to the following conditions:
 
-===============================================================================
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-Copyright (C) 1994-2012 Lua.org, PUC-Rio.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-
+NESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+For the mod_brotli component:
+
+Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -827,6 +735,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-===============================================================================
-

@@ -16,6 +16,7 @@
   | Language              | Contributed by                           |
   +-----------------------+------------------------------------------+
   | Brazilian (pt-br)     | Ricardo Leite                            |
+  | Chinese (zh-cn/zh-tw) | CodeingBoy & popcorner                   |
   | Czech (cs)            | Marcel Kolaja                            |
   | Dutch (nl)            | Peter Van Biesen                         |
   | English (en)          | Lars Eilebrecht                          |
@@ -24,8 +25,10 @@
   | Italian (it)          | Luigi Rosa                               |
   | Japanese (ja)         | TAKAHASHI Makoto                         |
   | Korean (ko)           | Jaeho Shin                               |
+  | Norwegian Bokmål (nb) | Tom Fredrik Klaussen                     |
   | Polish (pl)           | Tomasz Kepczynski                        |
   | Romanian (ro)         | Andrei Besleaga                          |
+  | Russian (ru)          | Alexander Gaganashvili                   |
   | Serbian (sr)          | Nikola Smolenski                         |
   | Spanish (es)          | Karla Quintero                           |
   | Swedish (sv)          | Thomas Sjögren                           |

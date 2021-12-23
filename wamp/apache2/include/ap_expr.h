@@ -57,7 +57,7 @@ typedef struct {
  * operators)
  */
 #define AP_EXPR_FLAG_SSL_EXPR_COMPAT       1
-/** Don't add siginificant request headers to the Vary response header */
+/** Don't add significant request headers to the Vary response header */
 #define AP_EXPR_FLAG_DONT_VARY             2
 /** Don't allow functions/vars that bypass the current request's access
  *  restrictions or would otherwise leak confidential information.
@@ -107,7 +107,7 @@ typedef struct {
     request_rec *r;
     /** the current connection */
     conn_rec *c;
-    /** the current connection */
+    /** the current virtual host */
     server_rec *s;
     /** the pool to use */
     apr_pool_t *p;
@@ -282,7 +282,7 @@ typedef struct {
 
 /** Function for looking up the provider function for a variable, operator
  *  or function in an expression.
- *  @param parms The parameter struct, also determins where the result is
+ *  @param parms The parameter struct, also determines where the result is
  *               stored.
  *  @return OK on success,
  *          !OK on failure,

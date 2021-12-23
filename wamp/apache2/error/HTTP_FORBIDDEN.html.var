@@ -68,20 +68,20 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="Acceso prohibido!" -->
+<!--#set var="TITLE" value="&iexcl;Acceso prohibido!" -->
 <!--#include virtual="include/top.html" -->
 
    <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
 
-      Usted no tiene permiso para accesar al directorio solicitado.
+      Usted no tiene permiso para acceder al directorio solicitado.
       No existe un documento &iacute;ndice, o el directorio est&aacute;
       protegido contra lectura.
 
   <!--#else -->
 
-      Usted no tiene permiso de accesar al objeto solicitado.
-      El objeto est&aacute; protegido contra lectura, o no
-      puede ser leido por el servidor.
+      Usted no tiene permiso para acceder al objeto solicitado.
+      El objeto est&aacute; protegido contra lectura o
+      el servidor no puede leerlo.
 
   <!--#endif -->
 
@@ -128,7 +128,7 @@ Body:----------ga--
 
     N&iacute;l cead agat rochtain a dh&eacute;anamh ar an aidhm faoi iarratais.
     Is f&eacute;idir go bhfuil cosaint ar l&eacute; air, n&oacute; go bhfuil
-    s&eacute dol&eacute;ite don freastala&iacute;.
+    s&eacute; dol&eacute;ite don freastala&iacute;.
     
   <!--#endif -->
 
@@ -225,6 +225,30 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Adgang forbudt!"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    Du har ikke tilstrekkelige rettigheter for å få tilgang til den
+    ønskede katalogen. Det eksisterer ikke et indeksdokument, eller
+    katalogen er lesebeskyttet.
+
+  <!--#else -->
+
+    Du har ikke tilstrekkelige rettigheter for å få adgang til det
+    ønskede dokumentet. Objektet er lesebeskyttet, eller ikke lesbart
+    for serveren.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -317,6 +341,27 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Доступ запрещён!"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    У Вас нет прав доступа к этой директории.
+    Отсутствует индексный файл, или директория недоступна для чтения.
+
+  <!--#else -->
+
+    У Вас нет прав доступа к этому объекту.
+    Файл недоступен для чтения, или сервер не может его прочитать.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -385,3 +430,47 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="禁止访问！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    您无权访问所请求的目录。
+    这是由于没有主页或该目录不允许被读取导致的。
+
+  <!--#else -->
+
+    您无权访问所请求的对象。
+    它可能不允许被读取或无法被服务器读取。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="禁止訪問！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    您無權訪問所請求的目錄。
+    這是由於沒有主頁或該目錄不允許被讀取導致的。
+
+  <!--#else -->
+
+    您無權訪問所請求的物件。
+    它可能不允許被讀取或無法被伺服器讀取。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

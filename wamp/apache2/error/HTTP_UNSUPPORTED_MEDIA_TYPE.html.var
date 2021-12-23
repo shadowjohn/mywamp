@@ -37,10 +37,10 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="El tipo de medio no est&aacute; implementado!" -->
+<!--#set var="TITLE" value="&iexcl;El tipo de medio no est&aacute; soportado!" -->
 <!--#include virtual="include/top.html" -->
 
-   El servidor no tiene implementado el tipo
+   El servidor no soporta el tipo
    de medio transmitido en la solicitud.
 
 <!--#include virtual="include/bottom.html" -->
@@ -120,6 +120,18 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Mediatypen støttes ikke!"
+--><!--#include virtual="include/top.html" -->
+
+    Serveren støtter ikke den mediatypen som ble forespurt.
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -168,6 +180,17 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Неподдерживаемый тип данных!"
+--><!--#include virtual="include/top.html" -->
+
+    Сервер не поддерживает работу с указанным типом данных.
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -203,3 +226,27 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="不支持的媒体类型！"
+--><!--#include virtual="include/top.html" -->
+
+    服务器不支持请求中传输的媒体类型。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="不支持的媒體型式！"
+--><!--#include virtual="include/top.html" -->
+
+    伺服器不支持請求中傳輸的媒體型式。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

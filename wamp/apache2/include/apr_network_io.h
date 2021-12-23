@@ -26,9 +26,13 @@
 #include "apr_file_io.h"
 #include "apr_errno.h"
 #include "apr_inherit.h" 
+#include "apr_perms_set.h"
 
 #if APR_HAVE_NETINET_IN_H
 #include <netinet/in.h>
+#endif
+#if APR_HAVE_SYS_UN_H
+#include <sys/un.h>
 #endif
 
 #ifdef __cplusplus
@@ -99,6 +103,11 @@ extern "C" {
                                     * until data is available.
                                     * @see apr_socket_accept_filter
                                     */
+#define APR_SO_BROADCAST     65536 /**< Allow broadcast
+                                    */
+#define APR_SO_FREEBIND     131072 /**< Allow binding to addresses not owned
+                                    * by any interface
+                                    */
 
 /** @} */
 
@@ -152,6 +161,25 @@ struct in_addr {
 */
 
 #define APR_INET6    AF_INET6
+#endif
+
+#if APR_HAVE_SOCKADDR_UN
+#if defined (AF_UNIX)
+#define APR_UNIX    AF_UNIX
+#elif defined(AF_LOCAL)
+#define APR_UNIX    AF_LOCAL
+#else
+#error "Neither AF_UNIX nor AF_LOCAL is defined"
+#endif
+#else /* !APR_HAVE_SOCKADDR_UN */
+#if defined (AF_UNIX)
+#define APR_UNIX    AF_UNIX
+#elif defined(AF_LOCAL)
+#define APR_UNIX    AF_LOCAL
+#else
+/* TODO: Use a smarter way to detect unique APR_UNIX value */
+#define APR_UNIX    1234
+#endif
 #endif
 
 /**
@@ -245,6 +273,10 @@ struct apr_sockaddr_t {
          * dependent on whether APR_HAVE_IPV6 is defined. */
         struct sockaddr_storage sas;
 #endif
+#if APR_HAVE_SOCKADDR_UN
+        /** Unix domain socket sockaddr structure */
+        struct sockaddr_un unx;
+#endif
     } sa;
 };
 
@@ -278,6 +310,9 @@ struct apr_hdtr_t {
  * @param type The type of the socket (e.g., SOCK_STREAM).
  * @param protocol The protocol of the socket (e.g., APR_PROTO_TCP).
  * @param cont The pool for the apr_socket_t and associated storage.
+ * @note The pool will be used by various functions that operate on the
+ *       socket. The caller must ensure that it is not used by other threads
+ *       at the same time.
  */
 APR_DECLARE(apr_status_t) apr_socket_create(apr_socket_t **new_sock, 
                                             int family, int type,
@@ -333,6 +368,9 @@ APR_DECLARE(apr_status_t) apr_socket_listen(apr_socket_t *sock,
  *                 be used for all future communication.
  * @param sock The socket we are listening on.
  * @param connection_pool The pool for the new socket.
+ * @note The pool will be used by various functions that operate on the
+ *       socket. The caller must ensure that it is not used by other threads
+ *       at the same time.
  */
 APR_DECLARE(apr_status_t) apr_socket_accept(apr_socket_t **new_sock, 
                                             apr_socket_t *sock,
@@ -367,6 +405,7 @@ APR_DECLARE(apr_status_t) apr_socket_atreadeof(apr_socket_t *sock,
  * @param sa The new apr_sockaddr_t.
  * @param hostname The hostname or numeric address string to resolve/parse, or
  *               NULL to build an address that corresponds to 0.0.0.0 or ::
+ *               or in case of APR_UNIX family it is absolute socket filename.
  * @param family The address family to use, or APR_UNSPEC if the system should 
  *               decide.
  * @param port The port number.
@@ -393,10 +432,47 @@ APR_DECLARE(apr_status_t) apr_sockaddr_info_get(apr_sockaddr_t **sa,
                                           apr_pool_t *p);
 
 /**
+ * Copy apr_sockaddr_t src to dst on pool p.
+ * @param dst The destination apr_sockaddr_t.
+ * @param src The source apr_sockaddr_t.
+ * @param p The pool for the apr_sockaddr_t and associated storage.
+ */
+APR_DECLARE(apr_status_t) apr_sockaddr_info_copy(apr_sockaddr_t **dst,
+                                                 const apr_sockaddr_t *src,
+                                                 apr_pool_t *p);
+
+/* Set the zone of an IPv6 link-local address object.
+ * @param sa Socket address object
+ * @param zone_id Zone ID (textual "eth0" or numeric "3").
+ * @return Returns APR_EBADIP for non-IPv6 socket or an IPv6 address
+ * which isn't link-local.
+ */
+APR_DECLARE(apr_status_t) apr_sockaddr_zone_set(apr_sockaddr_t *sa,
+                                                const char *zone_id);
+
+
+/* Retrieve the zone of an IPv6 link-local address object.
+ * @param sa Socket address object
+ * @param name If non-NULL, set to the textual representation of the zone id
+ * @param id If non-NULL, set to the integer zone id
+ * @param p Pool from which *name is allocated if used.
+ * @return Returns APR_EBADIP for non-IPv6 socket or socket without any zone id
+ * set, or other error if the interface could not be mapped to a name.
+ * @remark Both name and id may be NULL, neither are modified if
+ * non-NULL in error cases.
+ */
+APR_DECLARE(apr_status_t) apr_sockaddr_zone_get(const apr_sockaddr_t *sa,
+                                                const char **name,
+                                                apr_uint32_t *id,
+                                                apr_pool_t *p);                                                
+    
+/**
  * Look up the host name from an apr_sockaddr_t.
  * @param hostname The hostname.
  * @param sa The apr_sockaddr_t.
  * @param flags Special processing flags.
+ * @remark Results can vary significantly between platforms
+ * when processing wildcard socket addresses.
  */
 APR_DECLARE(apr_status_t) apr_getnameinfo(char **hostname,
                                           apr_sockaddr_t *sa,
@@ -489,7 +565,7 @@ APR_DECLARE(apr_status_t) apr_socket_send(apr_socket_t *sock, const char *buf,
                                           apr_size_t *len);
 
 /**
- * Send multiple packets of data over a network.
+ * Send multiple buffers over a network.
  * @param sock The socket to send the data over.
  * @param vec The array of iovec structs containing the data to send 
  * @param nvec The number of iovec structs in the array
@@ -499,7 +575,7 @@ APR_DECLARE(apr_status_t) apr_socket_send(apr_socket_t *sock, const char *buf,
  * This functions acts like a blocking write by default.  To change 
  * this behavior, use apr_socket_timeout_set() or the APR_SO_NONBLOCK
  * socket option.
- * The number of bytes actually sent is stored in argument 3.
+ * The number of bytes actually sent is stored in argument 4.
  *
  * It is possible for both bytes to be sent and an error to be returned.
  *
@@ -610,6 +686,7 @@ APR_DECLARE(apr_status_t) apr_socket_recv(apr_socket_t *sock,
  *                                  of local addresses.
  *            APR_SO_SNDBUF     --  Set the SendBufferSize
  *            APR_SO_RCVBUF     --  Set the ReceiveBufferSize
+ *            APR_SO_FREEBIND   --  Allow binding to non-local IP address.
  * </PRE>
  * @param on Value for the option.
  */
@@ -671,7 +748,7 @@ APR_DECLARE(apr_status_t) apr_socket_atmark(apr_socket_t *sock,
 
 /**
  * Return an address associated with a socket; either the address to
- * which the socket is bound locally or the the address of the peer
+ * which the socket is bound locally or the address of the peer
  * to which the socket is connected.
  * @param sa The returned apr_sockaddr_t.
  * @param which Whether to retrieve the local or remote address
@@ -711,6 +788,16 @@ APR_DECLARE(apr_status_t) apr_sockaddr_ip_getbuf(char *buf, apr_size_t buflen,
  */
 APR_DECLARE(int) apr_sockaddr_equal(const apr_sockaddr_t *addr1,
                                     const apr_sockaddr_t *addr2);
+
+/**
+ * See if the IP address in an APR socket address refers to the wildcard
+ * address for the protocol family (e.g., INADDR_ANY for IPv4).
+ *
+ * @param addr The APR socket address to examine.
+ * @remark The return value will be non-zero if the address is
+ * initialized and is the wildcard address.
+ */
+APR_DECLARE(int) apr_sockaddr_is_wildcard(const apr_sockaddr_t *addr);
 
 /**
 * Return the type of the socket.
@@ -785,6 +872,11 @@ APR_DECLARE_INHERIT_SET(socket);
  * Unset a socket from being inherited by child processes.
  */
 APR_DECLARE_INHERIT_UNSET(socket);
+
+/**
+ * Set socket permissions.
+ */
+APR_PERMS_SET_IMPLEMENT(socket);
 
 /**
  * @defgroup apr_mcast IP Multicast

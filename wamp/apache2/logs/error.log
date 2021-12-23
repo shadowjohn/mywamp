@@ -2652,3 +2652,833 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: C:\
 [Wed Oct 14 10:52:38.399943 2020] [mpm_winnt:notice] [pid 14280:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Wed Oct 14 10:52:40.429917 2020] [mpm_winnt:notice] [pid 17128:tid 504] AH00364: Child: All worker threads have exited.
 [Wed Oct 14 10:52:40.479748 2020] [mpm_winnt:notice] [pid 14280:tid 708] AH00430: Parent: Child process 17128 exited successfully.
+Starting the Apache2.4 service
+The Apache2.4 service is running.
+[ssl:warn] [pid 27236:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 16:39:03.289479 2021] [mpm_winnt:notice] [pid 27236:tid 668] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 16:39:03.289479 2021] [mpm_winnt:notice] [pid 27236:tid 668] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 16:39:03.289479 2021] [core:notice] [pid 27236:tid 668] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 16:39:03.317476 2021] [mpm_winnt:notice] [pid 27236:tid 668] AH00418: Parent: Created child process 20032
+[Mon Sep 13 16:39:06.425481 2021] [ssl:warn] [pid 20032:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 16:39:06.848487 2021] [mpm_winnt:notice] [pid 20032:tid 692] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 16:39:14.645042 2021] [mpm_winnt:notice] [pid 27236:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 16:39:16.661744 2021] [mpm_winnt:notice] [pid 20032:tid 692] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 16:39:16.689708 2021] [mpm_winnt:notice] [pid 27236:tid 668] AH00430: Parent: Child process 20032 exited successfully.
+[Mon Sep 13 17:26:06.429041 2021] [ssl:warn] [pid 22128:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 17:26:08.123058 2021] [mpm_winnt:notice] [pid 22128:tid 608] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 17:26:08.124104 2021] [mpm_winnt:notice] [pid 22128:tid 608] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 17:26:08.124104 2021] [core:notice] [pid 22128:tid 608] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 17:26:08.174038 2021] [mpm_winnt:notice] [pid 22128:tid 608] AH00418: Parent: Created child process 28836
+[Mon Sep 13 17:26:11.007029 2021] [ssl:warn] [pid 28836:tid 464] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 17:26:11.443035 2021] [mpm_winnt:notice] [pid 28836:tid 464] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 17:26:13.899059 2021] [mpm_winnt:notice] [pid 22128:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 17:26:15.952825 2021] [mpm_winnt:notice] [pid 28836:tid 464] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 17:26:15.979794 2021] [mpm_winnt:notice] [pid 22128:tid 608] AH00430: Parent: Child process 28836 exited successfully.
+[Mon Sep 13 18:20:59.663046 2021] [ssl:warn] [pid 24088:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:21:00.107046 2021] [mpm_winnt:notice] [pid 24088:tid 536] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 18:21:00.107046 2021] [mpm_winnt:notice] [pid 24088:tid 536] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 18:21:00.107046 2021] [core:notice] [pid 24088:tid 536] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 18:21:00.136045 2021] [mpm_winnt:notice] [pid 24088:tid 536] AH00418: Parent: Created child process 30012
+[Mon Sep 13 18:21:03.146038 2021] [ssl:warn] [pid 30012:tid 600] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:21:03.570037 2021] [mpm_winnt:notice] [pid 30012:tid 600] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 18:24:43.143785 2021] [mpm_winnt:notice] [pid 24088:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 18:24:45.155857 2021] [mpm_winnt:notice] [pid 30012:tid 600] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 18:24:45.286802 2021] [mpm_winnt:notice] [pid 24088:tid 536] AH00430: Parent: Child process 30012 exited successfully.
+[Mon Sep 13 18:25:10.680509 2021] [ssl:warn] [pid 29996:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:25:11.046513 2021] [mpm_winnt:notice] [pid 29996:tid 756] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 18:25:11.046513 2021] [mpm_winnt:notice] [pid 29996:tid 756] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 18:25:11.046513 2021] [core:notice] [pid 29996:tid 756] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 18:25:11.072513 2021] [mpm_winnt:notice] [pid 29996:tid 756] AH00418: Parent: Created child process 19588
+[Mon Sep 13 18:25:13.983502 2021] [ssl:warn] [pid 19588:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:25:14.388551 2021] [mpm_winnt:notice] [pid 19588:tid 692] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 18:35:06.129439 2021] [mpm_winnt:notice] [pid 29996:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 18:35:08.133197 2021] [mpm_winnt:notice] [pid 19588:tid 692] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 18:35:08.159257 2021] [mpm_winnt:notice] [pid 29996:tid 756] AH00430: Parent: Child process 19588 exited successfully.
+[Mon Sep 13 18:39:52.927526 2021] [ssl:warn] [pid 11848:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:39:53.434551 2021] [mpm_winnt:notice] [pid 11848:tid 764] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 18:39:53.434551 2021] [mpm_winnt:notice] [pid 11848:tid 764] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 18:39:53.434551 2021] [core:notice] [pid 11848:tid 764] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 18:39:53.463518 2021] [mpm_winnt:notice] [pid 11848:tid 764] AH00418: Parent: Created child process 27400
+[Mon Sep 13 18:39:57.607045 2021] [ssl:warn] [pid 27400:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:39:58.095043 2021] [mpm_winnt:notice] [pid 27400:tid 684] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 18:40:57.548747 2021] [mpm_winnt:notice] [pid 11848:tid 764] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 18:40:59.564745 2021] [mpm_winnt:notice] [pid 27400:tid 684] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 18:40:59.612746 2021] [mpm_winnt:notice] [pid 11848:tid 764] AH00430: Parent: Child process 27400 exited successfully.
+[Mon Sep 13 18:43:37.917436 2021] [ssl:warn] [pid 28828:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:43:38.333438 2021] [mpm_winnt:notice] [pid 28828:tid 748] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 13 18:43:38.333438 2021] [mpm_winnt:notice] [pid 28828:tid 748] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 13 18:43:38.333438 2021] [core:notice] [pid 28828:tid 748] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 13 18:43:38.366438 2021] [mpm_winnt:notice] [pid 28828:tid 748] AH00418: Parent: Created child process 15188
+[Mon Sep 13 18:43:42.357971 2021] [ssl:warn] [pid 15188:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 13 18:43:42.849973 2021] [mpm_winnt:notice] [pid 15188:tid 704] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 13 18:44:50.533465 2021] [mpm_winnt:notice] [pid 28828:tid 748] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 13 18:44:52.553467 2021] [mpm_winnt:notice] [pid 15188:tid 704] AH00364: Child: All worker threads have exited.
+[Mon Sep 13 18:44:52.597470 2021] [mpm_winnt:notice] [pid 28828:tid 748] AH00430: Parent: Child process 15188 exited successfully.
+[Tue Sep 14 08:32:01.189166 2021] [ssl:warn] [pid 4808:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:32:04.454795 2021] [mpm_winnt:notice] [pid 4808:tid 552] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 08:32:04.454795 2021] [mpm_winnt:notice] [pid 4808:tid 552] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 08:32:04.454795 2021] [core:notice] [pid 4808:tid 552] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 08:32:04.501664 2021] [mpm_winnt:notice] [pid 4808:tid 552] AH00418: Parent: Created child process 8808
+[Tue Sep 14 08:32:06.907915 2021] [ssl:warn] [pid 8808:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:32:07.079794 2021] [mpm_winnt:notice] [pid 8808:tid 620] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 08:47:49.675780 2021] [mpm_winnt:notice] [pid 4808:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 08:47:51.701456 2021] [mpm_winnt:notice] [pid 8808:tid 620] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 08:47:51.757002 2021] [mpm_winnt:notice] [pid 4808:tid 552] AH00430: Parent: Child process 8808 exited successfully.
+[Tue Sep 14 08:50:24.453197 2021] [ssl:warn] [pid 13776:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:50:24.854198 2021] [mpm_winnt:notice] [pid 13776:tid 728] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 08:50:24.854198 2021] [mpm_winnt:notice] [pid 13776:tid 728] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 08:50:24.854198 2021] [core:notice] [pid 13776:tid 728] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 08:50:24.875185 2021] [mpm_winnt:notice] [pid 13776:tid 728] AH00418: Parent: Created child process 148
+[Tue Sep 14 08:50:27.179112 2021] [ssl:warn] [pid 148:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:50:27.511089 2021] [mpm_winnt:notice] [pid 148:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 08:51:34.760391 2021] [mpm_winnt:notice] [pid 13776:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 08:51:36.783884 2021] [mpm_winnt:notice] [pid 148:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 08:51:36.808694 2021] [mpm_winnt:notice] [pid 13776:tid 728] AH00430: Parent: Child process 148 exited successfully.
+[Tue Sep 14 08:51:45.876924 2021] [ssl:warn] [pid 20204:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:51:46.180930 2021] [mpm_winnt:notice] [pid 20204:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 08:51:46.180930 2021] [mpm_winnt:notice] [pid 20204:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 08:51:46.180930 2021] [core:notice] [pid 20204:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 08:51:46.200933 2021] [mpm_winnt:notice] [pid 20204:tid 712] AH00418: Parent: Created child process 20532
+[Tue Sep 14 08:51:48.723802 2021] [ssl:warn] [pid 20532:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:51:49.038821 2021] [mpm_winnt:notice] [pid 20532:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 08:51:54.153718 2021] [mpm_winnt:notice] [pid 20204:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 08:51:56.181839 2021] [mpm_winnt:notice] [pid 20532:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 08:51:56.207807 2021] [mpm_winnt:notice] [pid 20204:tid 712] AH00430: Parent: Child process 20532 exited successfully.
+[Tue Sep 14 08:54:07.844097 2021] [ssl:warn] [pid 13116:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:54:08.153341 2021] [mpm_winnt:notice] [pid 13116:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 08:54:08.154337 2021] [mpm_winnt:notice] [pid 13116:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 08:54:08.154337 2021] [core:notice] [pid 13116:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 08:54:08.176337 2021] [mpm_winnt:notice] [pid 13116:tid 712] AH00418: Parent: Created child process 17376
+[Tue Sep 14 08:54:10.610339 2021] [ssl:warn] [pid 17376:tid 564] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 08:54:10.934340 2021] [mpm_winnt:notice] [pid 17376:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:06:14.155151 2021] [mpm_winnt:notice] [pid 13116:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:06:16.169792 2021] [mpm_winnt:notice] [pid 17376:tid 564] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:06:16.195202 2021] [mpm_winnt:notice] [pid 13116:tid 712] AH00430: Parent: Child process 17376 exited successfully.
+[Tue Sep 14 09:06:36.378899 2021] [ssl:warn] [pid 15780:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:06:36.694898 2021] [mpm_winnt:notice] [pid 15780:tid 728] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:06:36.694898 2021] [mpm_winnt:notice] [pid 15780:tid 728] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:06:36.694898 2021] [core:notice] [pid 15780:tid 728] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:06:36.715886 2021] [mpm_winnt:notice] [pid 15780:tid 728] AH00418: Parent: Created child process 20892
+[Tue Sep 14 09:06:39.215385 2021] [ssl:warn] [pid 20892:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:06:39.541383 2021] [mpm_winnt:notice] [pid 20892:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:06:45.020751 2021] [mpm_winnt:notice] [pid 15780:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:06:47.052056 2021] [mpm_winnt:notice] [pid 20892:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:06:47.077016 2021] [mpm_winnt:notice] [pid 15780:tid 728] AH00430: Parent: Child process 20892 exited successfully.
+[Tue Sep 14 09:10:32.444644 2021] [ssl:warn] [pid 7308:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:10:32.765623 2021] [mpm_winnt:notice] [pid 7308:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:10:32.765623 2021] [mpm_winnt:notice] [pid 7308:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:10:32.765623 2021] [core:notice] [pid 7308:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:10:32.786634 2021] [mpm_winnt:notice] [pid 7308:tid 708] AH00418: Parent: Created child process 7076
+[Tue Sep 14 09:10:35.292846 2021] [ssl:warn] [pid 7076:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:10:35.630868 2021] [mpm_winnt:notice] [pid 7076:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:10:46.171252 2021] [mpm_winnt:notice] [pid 7308:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:10:48.185271 2021] [mpm_winnt:notice] [pid 7076:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:10:48.208415 2021] [mpm_winnt:notice] [pid 7308:tid 708] AH00430: Parent: Child process 7076 exited successfully.
+[Tue Sep 14 09:12:14.505779 2021] [ssl:warn] [pid 13228:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:12:14.816795 2021] [mpm_winnt:notice] [pid 13228:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:12:14.816795 2021] [mpm_winnt:notice] [pid 13228:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:12:14.816795 2021] [core:notice] [pid 13228:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:12:14.836804 2021] [mpm_winnt:notice] [pid 13228:tid 712] AH00418: Parent: Created child process 17792
+[Tue Sep 14 09:12:17.488734 2021] [ssl:warn] [pid 17792:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:12:17.839746 2021] [mpm_winnt:notice] [pid 17792:tid 568] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:13:33.600000 2021] [mpm_winnt:notice] [pid 13228:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:13:35.608028 2021] [mpm_winnt:notice] [pid 17792:tid 568] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:13:35.634013 2021] [mpm_winnt:notice] [pid 13228:tid 712] AH00430: Parent: Child process 17792 exited successfully.
+[Tue Sep 14 09:14:04.712735 2021] [ssl:warn] [pid 3292:tid 812] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:14:05.078705 2021] [mpm_winnt:notice] [pid 3292:tid 812] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:14:05.078705 2021] [mpm_winnt:notice] [pid 3292:tid 812] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:14:05.078705 2021] [core:notice] [pid 3292:tid 812] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:14:05.100702 2021] [mpm_winnt:notice] [pid 3292:tid 812] AH00418: Parent: Created child process 19120
+[Tue Sep 14 09:14:07.850700 2021] [ssl:warn] [pid 19120:tid 556] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:14:08.213700 2021] [mpm_winnt:notice] [pid 19120:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:15:45.317534 2021] [mpm_winnt:notice] [pid 3292:tid 812] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:15:47.339020 2021] [mpm_winnt:notice] [pid 19120:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:15:47.364335 2021] [mpm_winnt:notice] [pid 3292:tid 812] AH00430: Parent: Child process 19120 exited successfully.
+[Tue Sep 14 09:16:12.852073 2021] [ssl:warn] [pid 3980:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:16:13.175086 2021] [mpm_winnt:notice] [pid 3980:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:16:13.176084 2021] [mpm_winnt:notice] [pid 3980:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:16:13.176084 2021] [core:notice] [pid 3980:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:16:13.196059 2021] [mpm_winnt:notice] [pid 3980:tid 708] AH00418: Parent: Created child process 21052
+[Tue Sep 14 09:16:15.716451 2021] [ssl:warn] [pid 21052:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:16:16.038452 2021] [mpm_winnt:notice] [pid 21052:tid 620] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:17:45.440614 2021] [mpm_winnt:notice] [pid 3980:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:17:47.469815 2021] [mpm_winnt:notice] [pid 21052:tid 620] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:17:47.494179 2021] [mpm_winnt:notice] [pid 3980:tid 708] AH00430: Parent: Child process 21052 exited successfully.
+[Tue Sep 14 09:18:26.370034 2021] [ssl:warn] [pid 20720:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:18:26.680022 2021] [mpm_winnt:notice] [pid 20720:tid 716] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:18:26.680022 2021] [mpm_winnt:notice] [pid 20720:tid 716] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:18:26.680022 2021] [core:notice] [pid 20720:tid 716] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:18:26.701023 2021] [mpm_winnt:notice] [pid 20720:tid 716] AH00418: Parent: Created child process 3488
+[Tue Sep 14 09:18:29.032025 2021] [ssl:warn] [pid 3488:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:18:29.376036 2021] [mpm_winnt:notice] [pid 3488:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:19:54.052518 2021] [mpm_winnt:notice] [pid 20720:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:19:56.061635 2021] [mpm_winnt:notice] [pid 3488:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:19:56.086251 2021] [mpm_winnt:notice] [pid 20720:tid 716] AH00430: Parent: Child process 3488 exited successfully.
+[Tue Sep 14 09:20:02.294236 2021] [ssl:warn] [pid 6320:tid 680] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:20:02.604240 2021] [mpm_winnt:notice] [pid 6320:tid 680] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:20:02.604240 2021] [mpm_winnt:notice] [pid 6320:tid 680] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:20:02.604240 2021] [core:notice] [pid 6320:tid 680] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:20:02.625226 2021] [mpm_winnt:notice] [pid 6320:tid 680] AH00418: Parent: Created child process 12868
+[Tue Sep 14 09:20:05.137735 2021] [ssl:warn] [pid 12868:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:20:05.479743 2021] [mpm_winnt:notice] [pid 12868:tid 660] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:21:52.192774 2021] [mpm_winnt:notice] [pid 6320:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:21:54.214766 2021] [mpm_winnt:notice] [pid 12868:tid 660] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:21:54.239720 2021] [mpm_winnt:notice] [pid 6320:tid 680] AH00430: Parent: Child process 12868 exited successfully.
+[Tue Sep 14 09:22:06.818252 2021] [ssl:warn] [pid 16352:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:22:07.172142 2021] [mpm_winnt:notice] [pid 16352:tid 720] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:22:07.172142 2021] [mpm_winnt:notice] [pid 16352:tid 720] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:22:07.172142 2021] [core:notice] [pid 16352:tid 720] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:22:07.195129 2021] [mpm_winnt:notice] [pid 16352:tid 720] AH00418: Parent: Created child process 8908
+[Tue Sep 14 09:22:09.997699 2021] [ssl:warn] [pid 8908:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:22:10.331686 2021] [mpm_winnt:notice] [pid 8908:tid 636] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:23:05.521137 2021] [mpm_winnt:notice] [pid 16352:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:23:07.535811 2021] [mpm_winnt:notice] [pid 8908:tid 636] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:23:07.560114 2021] [mpm_winnt:notice] [pid 16352:tid 720] AH00430: Parent: Child process 8908 exited successfully.
+[Tue Sep 14 09:23:11.026059 2021] [ssl:warn] [pid 4524:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:23:11.353060 2021] [mpm_winnt:notice] [pid 4524:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:23:11.353060 2021] [mpm_winnt:notice] [pid 4524:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:23:11.353060 2021] [core:notice] [pid 4524:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:23:11.373047 2021] [mpm_winnt:notice] [pid 4524:tid 708] AH00418: Parent: Created child process 7640
+[Tue Sep 14 09:23:13.998958 2021] [ssl:warn] [pid 7640:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:23:14.331977 2021] [mpm_winnt:notice] [pid 7640:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:25:06.613206 2021] [mpm_winnt:notice] [pid 4524:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:25:08.640854 2021] [mpm_winnt:notice] [pid 7640:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:25:08.665554 2021] [mpm_winnt:notice] [pid 4524:tid 708] AH00430: Parent: Child process 7640 exited successfully.
+[Tue Sep 14 09:25:21.859324 2021] [ssl:warn] [pid 2264:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:25:22.185343 2021] [mpm_winnt:notice] [pid 2264:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:25:22.185343 2021] [mpm_winnt:notice] [pid 2264:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:25:22.185343 2021] [core:notice] [pid 2264:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:25:22.207346 2021] [mpm_winnt:notice] [pid 2264:tid 712] AH00418: Parent: Created child process 18068
+[Tue Sep 14 09:25:24.852823 2021] [ssl:warn] [pid 18068:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:25:25.198837 2021] [mpm_winnt:notice] [pid 18068:tid 620] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:26:00.720340 2021] [mpm_winnt:notice] [pid 2264:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:26:02.743439 2021] [mpm_winnt:notice] [pid 18068:tid 620] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:26:02.769163 2021] [mpm_winnt:notice] [pid 2264:tid 712] AH00430: Parent: Child process 18068 exited successfully.
+[Tue Sep 14 09:26:37.831917 2021] [ssl:warn] [pid 15964:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:26:38.158927 2021] [mpm_winnt:notice] [pid 15964:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:26:38.158927 2021] [mpm_winnt:notice] [pid 15964:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:26:38.158927 2021] [core:notice] [pid 15964:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:26:38.180919 2021] [mpm_winnt:notice] [pid 15964:tid 708] AH00418: Parent: Created child process 12560
+[Tue Sep 14 09:26:40.549812 2021] [ssl:warn] [pid 12560:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:26:40.874817 2021] [mpm_winnt:notice] [pid 12560:tid 636] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:26:43.679132 2021] [mpm_winnt:notice] [pid 15964:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:26:45.682504 2021] [mpm_winnt:notice] [pid 12560:tid 636] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:26:45.707344 2021] [mpm_winnt:notice] [pid 15964:tid 708] AH00430: Parent: Child process 12560 exited successfully.
+[Tue Sep 14 09:26:52.677684 2021] [ssl:warn] [pid 4932:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:26:53.069661 2021] [mpm_winnt:notice] [pid 4932:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:26:53.069661 2021] [mpm_winnt:notice] [pid 4932:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:26:53.069661 2021] [core:notice] [pid 4932:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:26:53.091666 2021] [mpm_winnt:notice] [pid 4932:tid 712] AH00418: Parent: Created child process 2076
+[Tue Sep 14 09:26:55.549461 2021] [ssl:warn] [pid 2076:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:26:55.897762 2021] [mpm_winnt:notice] [pid 2076:tid 560] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:27:42.852777 2021] [mpm_winnt:notice] [pid 4932:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:27:44.870320 2021] [mpm_winnt:notice] [pid 2076:tid 560] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:27:44.895304 2021] [mpm_winnt:notice] [pid 4932:tid 712] AH00430: Parent: Child process 2076 exited successfully.
+[Tue Sep 14 09:27:51.193531 2021] [ssl:warn] [pid 17820:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:27:51.508532 2021] [mpm_winnt:notice] [pid 17820:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:27:51.508532 2021] [mpm_winnt:notice] [pid 17820:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:27:51.508532 2021] [core:notice] [pid 17820:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:27:51.528529 2021] [mpm_winnt:notice] [pid 17820:tid 708] AH00418: Parent: Created child process 8872
+[Tue Sep 14 09:27:53.874518 2021] [ssl:warn] [pid 8872:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:27:54.193532 2021] [mpm_winnt:notice] [pid 8872:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:28:13.409583 2021] [mpm_winnt:notice] [pid 17820:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:28:15.429808 2021] [mpm_winnt:notice] [pid 8872:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:28:15.454815 2021] [mpm_winnt:notice] [pid 17820:tid 708] AH00430: Parent: Child process 8872 exited successfully.
+[Tue Sep 14 09:28:21.392961 2021] [ssl:warn] [pid 5432:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:28:21.708984 2021] [mpm_winnt:notice] [pid 5432:tid 720] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:28:21.708984 2021] [mpm_winnt:notice] [pid 5432:tid 720] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:28:21.708984 2021] [core:notice] [pid 5432:tid 720] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:28:21.729966 2021] [mpm_winnt:notice] [pid 5432:tid 720] AH00418: Parent: Created child process 17996
+[Tue Sep 14 09:28:24.103875 2021] [ssl:warn] [pid 17996:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:28:24.448863 2021] [mpm_winnt:notice] [pid 17996:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:28:37.642390 2021] [mpm_winnt:notice] [pid 5432:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:28:39.666848 2021] [mpm_winnt:notice] [pid 17996:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:28:39.691402 2021] [mpm_winnt:notice] [pid 5432:tid 720] AH00430: Parent: Child process 17996 exited successfully.
+[Tue Sep 14 09:28:45.391063 2021] [ssl:warn] [pid 17800:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:28:45.701089 2021] [mpm_winnt:notice] [pid 17800:tid 720] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:28:45.701089 2021] [mpm_winnt:notice] [pid 17800:tid 720] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:28:45.701089 2021] [core:notice] [pid 17800:tid 720] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:28:45.721079 2021] [mpm_winnt:notice] [pid 17800:tid 720] AH00418: Parent: Created child process 11348
+[Tue Sep 14 09:28:48.194087 2021] [ssl:warn] [pid 11348:tid 576] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:28:48.520100 2021] [mpm_winnt:notice] [pid 11348:tid 576] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:30:05.630071 2021] [mpm_winnt:notice] [pid 17800:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:30:07.647661 2021] [mpm_winnt:notice] [pid 11348:tid 576] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:30:07.671880 2021] [mpm_winnt:notice] [pid 17800:tid 720] AH00430: Parent: Child process 11348 exited successfully.
+[Tue Sep 14 09:30:31.179458 2021] [ssl:warn] [pid 20372:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:30:31.511457 2021] [mpm_winnt:notice] [pid 20372:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:30:31.511457 2021] [mpm_winnt:notice] [pid 20372:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:30:31.511457 2021] [core:notice] [pid 20372:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:30:31.531441 2021] [mpm_winnt:notice] [pid 20372:tid 712] AH00418: Parent: Created child process 18556
+[Tue Sep 14 09:30:34.017445 2021] [ssl:warn] [pid 18556:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:30:34.367439 2021] [mpm_winnt:notice] [pid 18556:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:30:43.957656 2021] [mpm_winnt:notice] [pid 20372:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:30:45.972973 2021] [mpm_winnt:notice] [pid 18556:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:30:45.997584 2021] [mpm_winnt:notice] [pid 20372:tid 712] AH00430: Parent: Child process 18556 exited successfully.
+[Tue Sep 14 09:30:56.694884 2021] [ssl:warn] [pid 18820:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:30:57.018896 2021] [mpm_winnt:notice] [pid 18820:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:30:57.018896 2021] [mpm_winnt:notice] [pid 18820:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:30:57.018896 2021] [core:notice] [pid 18820:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:30:57.038885 2021] [mpm_winnt:notice] [pid 18820:tid 712] AH00418: Parent: Created child process 5456
+[Tue Sep 14 09:30:59.481358 2021] [ssl:warn] [pid 5456:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:30:59.813338 2021] [mpm_winnt:notice] [pid 5456:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:31:46.357737 2021] [mpm_winnt:notice] [pid 18820:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:31:48.373045 2021] [mpm_winnt:notice] [pid 5456:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:31:48.397315 2021] [mpm_winnt:notice] [pid 18820:tid 712] AH00430: Parent: Child process 5456 exited successfully.
+[Tue Sep 14 09:32:01.099915 2021] [ssl:warn] [pid 18232:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:32:01.458918 2021] [mpm_winnt:notice] [pid 18232:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:32:01.458918 2021] [mpm_winnt:notice] [pid 18232:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:32:01.458918 2021] [core:notice] [pid 18232:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:32:01.480924 2021] [mpm_winnt:notice] [pid 18232:tid 708] AH00418: Parent: Created child process 18340
+[Tue Sep 14 09:32:04.320725 2021] [ssl:warn] [pid 18340:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:32:04.654723 2021] [mpm_winnt:notice] [pid 18340:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:32:37.840944 2021] [mpm_winnt:notice] [pid 18232:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:32:39.847604 2021] [mpm_winnt:notice] [pid 18340:tid 456] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:32:39.872566 2021] [mpm_winnt:notice] [pid 18232:tid 708] AH00430: Parent: Child process 18340 exited successfully.
+[Tue Sep 14 09:32:44.256376 2021] [ssl:warn] [pid 8868:tid 736] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:32:44.582368 2021] [mpm_winnt:notice] [pid 8868:tid 736] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:32:44.582368 2021] [mpm_winnt:notice] [pid 8868:tid 736] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:32:44.582368 2021] [core:notice] [pid 8868:tid 736] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:32:44.592372 2021] [mpm_winnt:notice] [pid 8868:tid 736] AH00418: Parent: Created child process 6548
+[Tue Sep 14 09:32:47.173161 2021] [ssl:warn] [pid 6548:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:32:47.491140 2021] [mpm_winnt:notice] [pid 6548:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:34:02.266335 2021] [mpm_winnt:notice] [pid 8868:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:34:04.286729 2021] [mpm_winnt:notice] [pid 6548:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:34:04.311588 2021] [mpm_winnt:notice] [pid 8868:tid 736] AH00430: Parent: Child process 6548 exited successfully.
+[Tue Sep 14 09:34:10.234969 2021] [ssl:warn] [pid 9584:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:34:10.656960 2021] [mpm_winnt:notice] [pid 9584:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:34:10.657962 2021] [mpm_winnt:notice] [pid 9584:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:34:10.657962 2021] [core:notice] [pid 9584:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:34:10.667959 2021] [mpm_winnt:notice] [pid 9584:tid 724] AH00418: Parent: Created child process 17716
+[Tue Sep 14 09:34:13.404118 2021] [ssl:warn] [pid 17716:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:34:13.772110 2021] [mpm_winnt:notice] [pid 17716:tid 604] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:34:31.898827 2021] [mpm_winnt:notice] [pid 9584:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:34:33.903562 2021] [mpm_winnt:notice] [pid 17716:tid 604] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:34:33.929553 2021] [mpm_winnt:notice] [pid 9584:tid 724] AH00430: Parent: Child process 17716 exited successfully.
+[Tue Sep 14 09:35:53.633486 2021] [ssl:warn] [pid 12224:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:35:53.953492 2021] [mpm_winnt:notice] [pid 12224:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:35:53.953492 2021] [mpm_winnt:notice] [pid 12224:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:35:53.953492 2021] [core:notice] [pid 12224:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:35:53.973489 2021] [mpm_winnt:notice] [pid 12224:tid 708] AH00418: Parent: Created child process 7616
+[Tue Sep 14 09:35:56.307224 2021] [ssl:warn] [pid 7616:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:35:56.631217 2021] [mpm_winnt:notice] [pid 7616:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:37:00.256213 2021] [mpm_winnt:notice] [pid 12224:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:37:02.263410 2021] [mpm_winnt:notice] [pid 7616:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:37:02.290067 2021] [mpm_winnt:notice] [pid 12224:tid 708] AH00430: Parent: Child process 7616 exited successfully.
+[Tue Sep 14 09:37:10.924084 2021] [ssl:warn] [pid 14344:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:37:11.263091 2021] [mpm_winnt:notice] [pid 14344:tid 716] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:37:11.263091 2021] [mpm_winnt:notice] [pid 14344:tid 716] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:37:11.263091 2021] [core:notice] [pid 14344:tid 716] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:37:11.285068 2021] [mpm_winnt:notice] [pid 14344:tid 716] AH00418: Parent: Created child process 11244
+[Tue Sep 14 09:37:14.198034 2021] [ssl:warn] [pid 11244:tid 592] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:37:14.560049 2021] [mpm_winnt:notice] [pid 11244:tid 592] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:37:28.591091 2021] [mpm_winnt:notice] [pid 14344:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:37:30.615724 2021] [mpm_winnt:notice] [pid 11244:tid 592] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:37:30.640478 2021] [mpm_winnt:notice] [pid 14344:tid 716] AH00430: Parent: Child process 11244 exited successfully.
+[Tue Sep 14 09:37:37.030202 2021] [ssl:warn] [pid 9552:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:37:37.340218 2021] [mpm_winnt:notice] [pid 9552:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:37:37.340218 2021] [mpm_winnt:notice] [pid 9552:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:37:37.340218 2021] [core:notice] [pid 9552:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:37:37.360209 2021] [mpm_winnt:notice] [pid 9552:tid 712] AH00418: Parent: Created child process 13860
+[Tue Sep 14 09:37:39.756915 2021] [ssl:warn] [pid 13860:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:37:40.088913 2021] [mpm_winnt:notice] [pid 13860:tid 620] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:39:35.344756 2021] [mpm_winnt:notice] [pid 9552:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:39:37.361393 2021] [mpm_winnt:notice] [pid 13860:tid 620] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:39:37.385866 2021] [mpm_winnt:notice] [pid 9552:tid 712] AH00430: Parent: Child process 13860 exited successfully.
+[Tue Sep 14 09:39:43.114151 2021] [ssl:warn] [pid 3684:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:39:43.422126 2021] [mpm_winnt:notice] [pid 3684:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:39:43.422126 2021] [mpm_winnt:notice] [pid 3684:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:39:43.422126 2021] [core:notice] [pid 3684:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:39:43.444124 2021] [mpm_winnt:notice] [pid 3684:tid 724] AH00418: Parent: Created child process 12116
+[Tue Sep 14 09:39:45.876552 2021] [ssl:warn] [pid 12116:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:39:46.201549 2021] [mpm_winnt:notice] [pid 12116:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:40:03.299165 2021] [mpm_winnt:notice] [pid 3684:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:40:05.321533 2021] [mpm_winnt:notice] [pid 12116:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:40:05.346611 2021] [mpm_winnt:notice] [pid 3684:tid 724] AH00430: Parent: Child process 12116 exited successfully.
+[Tue Sep 14 09:40:10.821998 2021] [ssl:warn] [pid 21032:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:40:11.155018 2021] [mpm_winnt:notice] [pid 21032:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:40:11.155018 2021] [mpm_winnt:notice] [pid 21032:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:40:11.155018 2021] [core:notice] [pid 21032:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:40:11.175007 2021] [mpm_winnt:notice] [pid 21032:tid 708] AH00418: Parent: Created child process 11072
+[Tue Sep 14 09:40:13.793812 2021] [ssl:warn] [pid 11072:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:40:14.201816 2021] [mpm_winnt:notice] [pid 11072:tid 628] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:41:05.792482 2021] [mpm_winnt:notice] [pid 21032:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:41:07.814502 2021] [mpm_winnt:notice] [pid 11072:tid 628] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:41:07.839500 2021] [mpm_winnt:notice] [pid 21032:tid 708] AH00430: Parent: Child process 11072 exited successfully.
+[Tue Sep 14 09:51:43.241358 2021] [ssl:warn] [pid 16416:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:51:43.560350 2021] [mpm_winnt:notice] [pid 16416:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:51:43.560350 2021] [mpm_winnt:notice] [pid 16416:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:51:43.560350 2021] [core:notice] [pid 16416:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:51:43.581347 2021] [mpm_winnt:notice] [pid 16416:tid 708] AH00418: Parent: Created child process 19992
+[Tue Sep 14 09:51:46.118350 2021] [ssl:warn] [pid 19992:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:51:46.455352 2021] [mpm_winnt:notice] [pid 19992:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 09:53:24.463481 2021] [mpm_winnt:notice] [pid 16416:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 09:53:26.480953 2021] [mpm_winnt:notice] [pid 19992:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 09:53:26.505287 2021] [mpm_winnt:notice] [pid 16416:tid 708] AH00430: Parent: Child process 19992 exited successfully.
+[Tue Sep 14 09:53:42.171391 2021] [ssl:warn] [pid 20256:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:53:42.483961 2021] [mpm_winnt:notice] [pid 20256:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 09:53:42.483961 2021] [mpm_winnt:notice] [pid 20256:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 09:53:42.483961 2021] [core:notice] [pid 20256:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 09:53:42.503991 2021] [mpm_winnt:notice] [pid 20256:tid 712] AH00418: Parent: Created child process 7772
+[Tue Sep 14 09:53:44.902000 2021] [ssl:warn] [pid 7772:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 09:53:45.245087 2021] [mpm_winnt:notice] [pid 7772:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 10:29:30.687601 2021] [mpm_winnt:notice] [pid 20256:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 10:29:32.706778 2021] [mpm_winnt:notice] [pid 7772:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 10:29:32.731824 2021] [mpm_winnt:notice] [pid 20256:tid 712] AH00430: Parent: Child process 7772 exited successfully.
+[Tue Sep 14 10:32:34.279259 2021] [ssl:warn] [pid 5244:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:32:34.603259 2021] [mpm_winnt:notice] [pid 5244:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 10:32:34.603259 2021] [mpm_winnt:notice] [pid 5244:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 10:32:34.603259 2021] [core:notice] [pid 5244:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 10:32:34.624255 2021] [mpm_winnt:notice] [pid 5244:tid 724] AH00418: Parent: Created child process 8904
+[Tue Sep 14 10:32:37.065274 2021] [ssl:warn] [pid 8904:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:32:37.436262 2021] [mpm_winnt:notice] [pid 8904:tid 644] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 10:34:53.758619 2021] [mpm_winnt:notice] [pid 5244:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 10:34:55.787193 2021] [mpm_winnt:notice] [pid 8904:tid 644] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 10:34:55.811617 2021] [mpm_winnt:notice] [pid 5244:tid 724] AH00430: Parent: Child process 8904 exited successfully.
+[Tue Sep 14 10:35:06.141077 2021] [ssl:warn] [pid 16284:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:35:06.505058 2021] [mpm_winnt:notice] [pid 16284:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 10:35:06.505058 2021] [mpm_winnt:notice] [pid 16284:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 10:35:06.505058 2021] [core:notice] [pid 16284:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 10:35:06.529061 2021] [mpm_winnt:notice] [pid 16284:tid 712] AH00418: Parent: Created child process 7088
+[Tue Sep 14 10:35:09.144928 2021] [ssl:warn] [pid 7088:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:35:09.489932 2021] [mpm_winnt:notice] [pid 7088:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 10:37:35.997588 2021] [mpm_winnt:notice] [pid 16284:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 10:37:38.012770 2021] [mpm_winnt:notice] [pid 7088:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 10:37:38.038811 2021] [mpm_winnt:notice] [pid 16284:tid 712] AH00430: Parent: Child process 7088 exited successfully.
+[Tue Sep 14 10:59:11.837809 2021] [ssl:warn] [pid 16416:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:59:12.161816 2021] [mpm_winnt:notice] [pid 16416:tid 720] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 10:59:12.162781 2021] [mpm_winnt:notice] [pid 16416:tid 720] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 10:59:12.162781 2021] [core:notice] [pid 16416:tid 720] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 10:59:12.184799 2021] [mpm_winnt:notice] [pid 16416:tid 720] AH00418: Parent: Created child process 6360
+[Tue Sep 14 10:59:14.614018 2021] [ssl:warn] [pid 6360:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 10:59:14.965018 2021] [mpm_winnt:notice] [pid 6360:tid 636] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 13:35:33.206426 2021] [mpm_winnt:notice] [pid 16416:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 13:35:35.233376 2021] [mpm_winnt:notice] [pid 6360:tid 636] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 13:35:35.277738 2021] [mpm_winnt:notice] [pid 16416:tid 720] AH00430: Parent: Child process 6360 exited successfully.
+[Tue Sep 14 13:35:39.770669 2021] [ssl:warn] [pid 20260:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 13:35:40.289120 2021] [mpm_winnt:notice] [pid 20260:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 14 13:35:40.289120 2021] [mpm_winnt:notice] [pid 20260:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 14 13:35:40.289120 2021] [core:notice] [pid 20260:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 14 13:35:40.311106 2021] [mpm_winnt:notice] [pid 20260:tid 712] AH00418: Parent: Created child process 13468
+[Tue Sep 14 13:35:42.818971 2021] [ssl:warn] [pid 13468:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 14 13:35:43.156981 2021] [mpm_winnt:notice] [pid 13468:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 14 18:15:42.940734 2021] [mpm_winnt:notice] [pid 20260:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 14 18:15:44.971973 2021] [mpm_winnt:notice] [pid 13468:tid 612] AH00364: Child: All worker threads have exited.
+[Tue Sep 14 18:15:45.065708 2021] [mpm_winnt:notice] [pid 20260:tid 712] AH00430: Parent: Child process 13468 exited successfully.
+[Wed Sep 15 08:55:25.851404 2021] [ssl:warn] [pid 4792:tid 792] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 15 08:55:26.913902 2021] [mpm_winnt:notice] [pid 4792:tid 792] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Sep 15 08:55:26.913902 2021] [mpm_winnt:notice] [pid 4792:tid 792] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Sep 15 08:55:26.913902 2021] [core:notice] [pid 4792:tid 792] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Sep 15 08:55:26.976400 2021] [mpm_winnt:notice] [pid 4792:tid 792] AH00418: Parent: Created child process 8752
+[Wed Sep 15 08:55:30.663901 2021] [ssl:warn] [pid 8752:tid 544] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 15 08:55:31.757654 2021] [mpm_winnt:notice] [pid 8752:tid 544] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 15 18:17:23.320522 2021] [mpm_winnt:notice] [pid 4792:tid 792] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 15 18:17:25.633046 2021] [mpm_winnt:notice] [pid 8752:tid 544] AH00364: Child: All worker threads have exited.
+[Wed Sep 15 18:17:26.836145 2021] [mpm_winnt:notice] [pid 4792:tid 792] AH00430: Parent: Child process 8752 exited successfully.
+[Thu Sep 16 08:39:55.865966 2021] [ssl:warn] [pid 4792:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 16 08:39:58.412843 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Sep 16 08:39:58.412843 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Sep 16 08:39:58.412843 2021] [core:notice] [pid 4792:tid 536] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Sep 16 08:39:58.459717 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00418: Parent: Created child process 8220
+[Thu Sep 16 08:40:00.990976 2021] [ssl:warn] [pid 8220:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 16 08:40:01.240968 2021] [mpm_winnt:notice] [pid 8220:tid 624] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 16 18:09:07.416316 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 16 18:09:09.556945 2021] [mpm_winnt:notice] [pid 8220:tid 624] AH00364: Child: All worker threads have exited.
+[Thu Sep 16 18:09:09.775711 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00430: Parent: Child process 8220 exited successfully.
+[Fri Sep 17 08:34:40.646768 2021] [ssl:warn] [pid 4748:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 08:34:42.631143 2021] [mpm_winnt:notice] [pid 4748:tid 628] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Sep 17 08:34:42.631143 2021] [mpm_winnt:notice] [pid 4748:tid 628] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Sep 17 08:34:42.631143 2021] [core:notice] [pid 4748:tid 628] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Sep 17 08:34:42.693642 2021] [mpm_winnt:notice] [pid 4748:tid 628] AH00418: Parent: Created child process 8752
+[Fri Sep 17 08:34:45.271765 2021] [ssl:warn] [pid 8752:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 08:34:45.474892 2021] [mpm_winnt:notice] [pid 8752:tid 536] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 17 15:35:47.188671 2021] [mpm_winnt:notice] [pid 4748:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 17 15:35:49.235487 2021] [mpm_winnt:notice] [pid 8752:tid 536] AH00364: Child: All worker threads have exited.
+[Fri Sep 17 15:35:49.391744 2021] [mpm_winnt:notice] [pid 4748:tid 628] AH00430: Parent: Child process 8752 exited successfully.
+[Fri Sep 17 15:36:36.213866 2021] [ssl:warn] [pid 4740:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 15:36:37.948232 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Sep 17 15:36:37.948232 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Sep 17 15:36:37.948232 2021] [core:notice] [pid 4740:tid 636] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Sep 17 15:36:38.120152 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00418: Parent: Created child process 5888
+[Fri Sep 17 15:36:40.354474 2021] [ssl:warn] [pid 5888:tid 548] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 15:36:40.620148 2021] [mpm_winnt:notice] [pid 5888:tid 548] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 17 16:04:16.032244 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 17 16:04:18.079061 2021] [mpm_winnt:notice] [pid 5888:tid 548] AH00364: Child: All worker threads have exited.
+[Fri Sep 17 16:04:18.110313 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00430: Parent: Child process 5888 exited successfully.
+[Fri Sep 17 16:05:07.698758 2021] [ssl:warn] [pid 4780:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 16:05:09.323760 2021] [mpm_winnt:notice] [pid 4780:tid 720] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Sep 17 16:05:09.323760 2021] [mpm_winnt:notice] [pid 4780:tid 720] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Sep 17 16:05:09.323760 2021] [core:notice] [pid 4780:tid 720] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Sep 17 16:05:11.136275 2021] [mpm_winnt:notice] [pid 4780:tid 720] AH00418: Parent: Created child process 7360
+[Fri Sep 17 16:05:14.760596 2021] [ssl:warn] [pid 7360:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 16:05:15.160525 2021] [mpm_winnt:notice] [pid 7360:tid 516] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 17 18:11:40.973119 2021] [mpm_winnt:notice] [pid 4780:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 17 18:11:43.019807 2021] [mpm_winnt:notice] [pid 7360:tid 516] AH00364: Child: All worker threads have exited.
+[Fri Sep 17 18:11:43.113558 2021] [mpm_winnt:notice] [pid 4780:tid 720] AH00430: Parent: Child process 7360 exited successfully.
+[Fri Sep 17 18:12:59.984687 2021] [ssl:warn] [pid 4604:tid 556] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 18:13:02.625292 2021] [mpm_winnt:notice] [pid 4604:tid 556] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Sep 17 18:13:02.625292 2021] [mpm_winnt:notice] [pid 4604:tid 556] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Sep 17 18:13:02.625292 2021] [core:notice] [pid 4604:tid 556] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Sep 17 18:13:02.672164 2021] [mpm_winnt:notice] [pid 4604:tid 556] AH00418: Parent: Created child process 1372
+[Fri Sep 17 18:13:05.375292 2021] [ssl:warn] [pid 1372:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 17 18:13:05.719044 2021] [mpm_winnt:notice] [pid 1372:tid 516] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 17 18:51:57.675472 2021] [mpm_winnt:notice] [pid 4604:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 17 18:51:59.722321 2021] [mpm_winnt:notice] [pid 1372:tid 516] AH00364: Child: All worker threads have exited.
+[Fri Sep 17 18:51:59.737912 2021] [mpm_winnt:notice] [pid 4604:tid 556] AH00430: Parent: Child process 1372 exited successfully.
+[Wed Sep 22 08:34:00.038823 2021] [ssl:warn] [pid 4840:tid 592] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 22 08:34:02.476323 2021] [mpm_winnt:notice] [pid 4840:tid 592] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Sep 22 08:34:02.476323 2021] [mpm_winnt:notice] [pid 4840:tid 592] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Sep 22 08:34:02.476323 2021] [core:notice] [pid 4840:tid 592] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Sep 22 08:34:02.507575 2021] [mpm_winnt:notice] [pid 4840:tid 592] AH00418: Parent: Created child process 7724
+[Wed Sep 22 08:34:05.726323 2021] [ssl:warn] [pid 7724:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 22 08:34:06.679447 2021] [mpm_winnt:notice] [pid 7724:tid 560] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 22 18:40:36.156445 2021] [mpm_winnt:notice] [pid 4840:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 22 18:40:38.812707 2021] [mpm_winnt:notice] [pid 7724:tid 560] AH00364: Child: All worker threads have exited.
+[Wed Sep 22 18:40:46.375198 2021] [mpm_winnt:notice] [pid 4840:tid 592] AH00430: Parent: Child process 7724 exited successfully.
+[Wed Sep 22 18:41:26.196971 2021] [ssl:warn] [pid 4160:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 22 18:41:27.478220 2021] [mpm_winnt:notice] [pid 4160:tid 644] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Sep 22 18:41:27.478220 2021] [mpm_winnt:notice] [pid 4160:tid 644] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Sep 22 18:41:27.478220 2021] [core:notice] [pid 4160:tid 644] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Sep 22 18:41:27.509470 2021] [mpm_winnt:notice] [pid 4160:tid 644] AH00418: Parent: Created child process 7308
+[Wed Sep 22 18:41:29.618845 2021] [ssl:warn] [pid 7308:tid 600] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 22 18:41:29.775150 2021] [mpm_winnt:notice] [pid 7308:tid 600] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 22 18:41:41.542219 2021] [mpm_winnt:notice] [pid 4160:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 22 18:41:43.807220 2021] [mpm_winnt:notice] [pid 7308:tid 600] AH00364: Child: All worker threads have exited.
+[Wed Sep 22 18:41:43.822883 2021] [mpm_winnt:notice] [pid 4160:tid 644] AH00430: Parent: Child process 7308 exited successfully.
+[Thu Sep 23 08:50:57.234692 2021] [ssl:warn] [pid 4848:tid 792] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 23 08:50:58.609692 2021] [mpm_winnt:notice] [pid 4848:tid 792] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Sep 23 08:50:58.609692 2021] [mpm_winnt:notice] [pid 4848:tid 792] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Sep 23 08:50:58.609692 2021] [core:notice] [pid 4848:tid 792] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Sep 23 08:50:58.672188 2021] [mpm_winnt:notice] [pid 4848:tid 792] AH00418: Parent: Created child process 8528
+[Thu Sep 23 08:51:02.265942 2021] [ssl:warn] [pid 8528:tid 236] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 23 08:51:02.953443 2021] [mpm_winnt:notice] [pid 8528:tid 236] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 23 21:09:26.538658 2021] [mpm_winnt:notice] [pid 4848:tid 792] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 23 21:09:28.569949 2021] [mpm_winnt:notice] [pid 8528:tid 236] AH00364: Child: All worker threads have exited.
+[Thu Sep 23 21:09:28.710582 2021] [mpm_winnt:notice] [pid 4848:tid 792] AH00430: Parent: Child process 8528 exited successfully.
+[Fri Sep 24 08:55:03.310864 2021] [ssl:warn] [pid 4860:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 24 08:55:04.935864 2021] [mpm_winnt:notice] [pid 4860:tid 640] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Sep 24 08:55:04.935864 2021] [mpm_winnt:notice] [pid 4860:tid 640] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Sep 24 08:55:04.935864 2021] [core:notice] [pid 4860:tid 640] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Sep 24 08:55:04.967120 2021] [mpm_winnt:notice] [pid 4860:tid 640] AH00418: Parent: Created child process 8928
+[Fri Sep 24 08:55:06.920242 2021] [ssl:warn] [pid 8928:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 24 08:55:07.357741 2021] [mpm_winnt:notice] [pid 8928:tid 612] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 24 17:55:28.496240 2021] [mpm_winnt:notice] [pid 4860:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 24 17:55:31.074383 2021] [mpm_winnt:notice] [pid 8928:tid 612] AH00364: Child: All worker threads have exited.
+[Fri Sep 24 17:55:31.652526 2021] [mpm_winnt:notice] [pid 4860:tid 640] AH00430: Parent: Child process 8928 exited successfully.
+[Mon Sep 27 08:34:11.093696 2021] [ssl:warn] [pid 4840:tid 700] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 27 08:34:13.921827 2021] [mpm_winnt:notice] [pid 4840:tid 700] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Sep 27 08:34:13.921827 2021] [mpm_winnt:notice] [pid 4840:tid 700] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Sep 27 08:34:13.921827 2021] [core:notice] [pid 4840:tid 700] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Sep 27 08:34:14.234329 2021] [mpm_winnt:notice] [pid 4840:tid 700] AH00418: Parent: Created child process 2588
+[Mon Sep 27 08:34:17.024829 2021] [ssl:warn] [pid 2588:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Sep 27 08:34:17.181069 2021] [mpm_winnt:notice] [pid 2588:tid 712] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 27 17:54:27.523592 2021] [mpm_winnt:notice] [pid 4840:tid 700] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 27 17:54:29.586048 2021] [mpm_winnt:notice] [pid 2588:tid 712] AH00364: Child: All worker threads have exited.
+[Mon Sep 27 17:54:29.726697 2021] [mpm_winnt:notice] [pid 4840:tid 700] AH00430: Parent: Child process 2588 exited successfully.
+[Tue Sep 28 08:56:46.055519 2021] [ssl:warn] [pid 5060:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 28 08:56:47.883659 2021] [mpm_winnt:notice] [pid 5060:tid 740] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Sep 28 08:56:47.883659 2021] [mpm_winnt:notice] [pid 5060:tid 740] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Sep 28 08:56:47.883659 2021] [core:notice] [pid 5060:tid 740] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Sep 28 08:56:47.930519 2021] [mpm_winnt:notice] [pid 5060:tid 740] AH00418: Parent: Created child process 8604
+[Tue Sep 28 08:56:50.961770 2021] [ssl:warn] [pid 8604:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Sep 28 08:56:51.946222 2021] [mpm_winnt:notice] [pid 8604:tid 668] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 28 18:54:06.115634 2021] [mpm_winnt:notice] [pid 5060:tid 740] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 28 18:54:08.146890 2021] [mpm_winnt:notice] [pid 8604:tid 668] AH00364: Child: All worker threads have exited.
+[Tue Sep 28 18:54:08.365628 2021] [mpm_winnt:notice] [pid 5060:tid 740] AH00430: Parent: Child process 8604 exited successfully.
+[Wed Sep 29 08:49:19.473474 2021] [ssl:warn] [pid 4792:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 29 08:49:23.567165 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Sep 29 08:49:23.567165 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Sep 29 08:49:23.567165 2021] [core:notice] [pid 4792:tid 536] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Sep 29 08:49:23.645291 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00418: Parent: Created child process 4848
+[Wed Sep 29 08:49:26.608406 2021] [ssl:warn] [pid 4848:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 29 08:49:26.905284 2021] [mpm_winnt:notice] [pid 4848:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 29 18:31:33.101049 2021] [mpm_winnt:notice] [pid 4792:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 29 18:31:36.866737 2021] [mpm_winnt:notice] [pid 4848:tid 604] AH00364: Child: All worker threads have exited.
+[Thu Sep 30 08:53:11.869823 2021] [core:warn] [pid 4796:tid 708] AH00098: pid file C:/wamp/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 30 08:53:12.557326 2021] [ssl:warn] [pid 4796:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 30 08:53:15.791698 2021] [mpm_winnt:notice] [pid 4796:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Sep 30 08:53:15.791698 2021] [mpm_winnt:notice] [pid 4796:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Sep 30 08:53:15.791698 2021] [core:notice] [pid 4796:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Sep 30 08:53:15.838575 2021] [mpm_winnt:notice] [pid 4796:tid 708] AH00418: Parent: Created child process 8336
+[Thu Sep 30 08:53:18.845819 2021] [ssl:warn] [pid 8336:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 30 08:53:19.923942 2021] [mpm_winnt:notice] [pid 8336:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 30 19:10:53.346057 2021] [mpm_winnt:notice] [pid 4796:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 30 19:10:55.471078 2021] [mpm_winnt:notice] [pid 8336:tid 608] AH00364: Child: All worker threads have exited.
+[Thu Sep 30 19:10:55.892956 2021] [mpm_winnt:notice] [pid 4796:tid 708] AH00430: Parent: Child process 8336 exited successfully.
+[Fri Oct 01 08:54:57.851628 2021] [ssl:warn] [pid 4756:tid 664] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 01 08:54:59.195379 2021] [mpm_winnt:notice] [pid 4756:tid 664] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 01 08:54:59.195379 2021] [mpm_winnt:notice] [pid 4756:tid 664] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 01 08:54:59.195379 2021] [core:notice] [pid 4756:tid 664] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 01 08:54:59.242252 2021] [mpm_winnt:notice] [pid 4756:tid 664] AH00418: Parent: Created child process 7588
+[Fri Oct 01 08:55:01.414138 2021] [ssl:warn] [pid 7588:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 01 08:55:01.554753 2021] [mpm_winnt:notice] [pid 7588:tid 688] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 01 18:47:08.591186 2021] [mpm_winnt:notice] [pid 4756:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 01 18:47:10.653676 2021] [mpm_winnt:notice] [pid 7588:tid 688] AH00364: Child: All worker threads have exited.
+[Fri Oct 01 18:47:10.872411 2021] [mpm_winnt:notice] [pid 4756:tid 664] AH00430: Parent: Child process 7588 exited successfully.
+[Mon Oct 04 08:46:10.971150 2021] [ssl:warn] [pid 4740:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 04 08:46:11.939865 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Oct 04 08:46:11.939865 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Oct 04 08:46:11.939865 2021] [core:notice] [pid 4740:tid 636] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Oct 04 08:46:11.986742 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00418: Parent: Created child process 8984
+[Mon Oct 04 08:46:16.052507 2021] [ssl:warn] [pid 8984:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 04 08:46:16.302510 2021] [mpm_winnt:notice] [pid 8984:tid 560] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 04 18:09:26.923674 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 04 18:09:28.970546 2021] [mpm_winnt:notice] [pid 8984:tid 560] AH00364: Child: All worker threads have exited.
+[Mon Oct 04 18:09:29.189297 2021] [mpm_winnt:notice] [pid 4740:tid 636] AH00430: Parent: Child process 8984 exited successfully.
+[Tue Oct 05 08:49:04.228808 2021] [ssl:warn] [pid 4664:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 05 08:49:05.322555 2021] [mpm_winnt:notice] [pid 4664:tid 684] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Oct 05 08:49:05.322555 2021] [mpm_winnt:notice] [pid 4664:tid 684] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Oct 05 08:49:05.322555 2021] [core:notice] [pid 4664:tid 684] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Oct 05 08:49:05.353808 2021] [mpm_winnt:notice] [pid 4664:tid 684] AH00418: Parent: Created child process 7828
+[Tue Oct 05 08:49:07.619434 2021] [ssl:warn] [pid 7828:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 05 08:49:07.838181 2021] [mpm_winnt:notice] [pid 7828:tid 568] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 05 18:51:51.860356 2021] [mpm_winnt:notice] [pid 4664:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 05 18:51:54.032316 2021] [mpm_winnt:notice] [pid 7828:tid 568] AH00364: Child: All worker threads have exited.
+[Tue Oct 05 18:51:54.329152 2021] [mpm_winnt:notice] [pid 4664:tid 684] AH00430: Parent: Child process 7828 exited successfully.
+[Wed Oct 06 08:59:24.224948 2021] [ssl:warn] [pid 4944:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 08:59:27.584316 2021] [mpm_winnt:notice] [pid 4944:tid 712] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 06 08:59:27.584316 2021] [mpm_winnt:notice] [pid 4944:tid 712] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 06 08:59:27.584316 2021] [core:notice] [pid 4944:tid 712] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 06 08:59:27.615568 2021] [mpm_winnt:notice] [pid 4944:tid 712] AH00418: Parent: Created child process 8480
+[Wed Oct 06 08:59:30.193693 2021] [ssl:warn] [pid 8480:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 08:59:30.443736 2021] [mpm_winnt:notice] [pid 8480:tid 588] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 06 14:29:41.277472 2021] [mpm_winnt:notice] [pid 4944:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 06 14:29:43.308790 2021] [mpm_winnt:notice] [pid 8480:tid 588] AH00364: Child: All worker threads have exited.
+[Wed Oct 06 14:29:43.418096 2021] [mpm_winnt:notice] [pid 4944:tid 712] AH00430: Parent: Child process 8480 exited successfully.
+[Wed Oct 06 14:30:34.068526 2021] [ssl:warn] [pid 4616:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 14:30:36.646649 2021] [mpm_winnt:notice] [pid 4616:tid 716] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 06 14:30:36.646649 2021] [mpm_winnt:notice] [pid 4616:tid 716] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 06 14:30:36.646649 2021] [core:notice] [pid 4616:tid 716] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 06 14:30:36.677903 2021] [mpm_winnt:notice] [pid 4616:tid 716] AH00418: Parent: Created child process 7576
+[Wed Oct 06 14:30:38.943576 2021] [ssl:warn] [pid 7576:tid 580] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 14:30:39.302900 2021] [mpm_winnt:notice] [pid 7576:tid 580] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 06 18:44:18.268774 2021] [mpm_winnt:notice] [pid 4616:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 06 18:44:20.346809 2021] [mpm_winnt:notice] [pid 7576:tid 580] AH00364: Child: All worker threads have exited.
+[Wed Oct 06 18:44:20.628093 2021] [mpm_winnt:notice] [pid 4616:tid 716] AH00430: Parent: Child process 7576 exited successfully.
+[Wed Oct 06 18:45:46.338572 2021] [ssl:warn] [pid 4144:tid 804] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 18:45:47.291744 2021] [mpm_winnt:notice] [pid 4144:tid 804] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 06 18:45:47.291744 2021] [mpm_winnt:notice] [pid 4144:tid 804] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 06 18:45:47.291744 2021] [core:notice] [pid 4144:tid 804] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 06 18:45:47.307321 2021] [mpm_winnt:notice] [pid 4144:tid 804] AH00418: Parent: Created child process 4520
+[Wed Oct 06 18:45:49.041680 2021] [ssl:warn] [pid 4520:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 06 18:45:49.322926 2021] [mpm_winnt:notice] [pid 4520:tid 656] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 06 18:46:22.895974 2021] [mpm_winnt:notice] [pid 4144:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 06 18:46:24.927233 2021] [mpm_winnt:notice] [pid 4520:tid 656] AH00364: Child: All worker threads have exited.
+[Wed Oct 06 18:46:24.958535 2021] [mpm_winnt:notice] [pid 4144:tid 804] AH00430: Parent: Child process 4520 exited successfully.
+[Thu Oct 07 08:53:35.858835 2021] [ssl:warn] [pid 4476:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 07 08:53:39.374458 2021] [mpm_winnt:notice] [pid 4476:tid 748] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Oct 07 08:53:39.374458 2021] [mpm_winnt:notice] [pid 4476:tid 748] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Oct 07 08:53:39.374458 2021] [core:notice] [pid 4476:tid 748] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Oct 07 08:53:39.421355 2021] [mpm_winnt:notice] [pid 4476:tid 748] AH00418: Parent: Created child process 7204
+[Thu Oct 07 08:53:41.535444 2021] [ssl:warn] [pid 7204:tid 564] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 07 08:53:41.801057 2021] [mpm_winnt:notice] [pid 7204:tid 564] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 07 15:33:03.616560 2021] [mpm_winnt:notice] [pid 4476:tid 748] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 07 15:33:05.647837 2021] [mpm_winnt:notice] [pid 7204:tid 564] AH00364: Child: All worker threads have exited.
+[Thu Oct 07 15:33:06.194663 2021] [mpm_winnt:notice] [pid 4476:tid 748] AH00430: Parent: Child process 7204 exited successfully.
+[Thu Oct 07 15:34:08.885559 2021] [ssl:warn] [pid 4496:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 07 15:34:10.212853 2021] [mpm_winnt:notice] [pid 4496:tid 716] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Oct 07 15:34:10.212853 2021] [mpm_winnt:notice] [pid 4496:tid 716] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Oct 07 15:34:10.212853 2021] [core:notice] [pid 4496:tid 716] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Oct 07 15:34:10.228478 2021] [mpm_winnt:notice] [pid 4496:tid 716] AH00418: Parent: Created child process 7728
+[Thu Oct 07 15:34:12.384734 2021] [ssl:warn] [pid 7728:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 07 15:34:12.837854 2021] [mpm_winnt:notice] [pid 7728:tid 616] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 07 15:40:29.275463 2021] [mpm_winnt:notice] [pid 4496:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 07 15:40:31.289235 2021] [mpm_winnt:notice] [pid 7728:tid 616] AH00364: Child: All worker threads have exited.
+[Thu Oct 07 15:40:31.530749 2021] [mpm_winnt:notice] [pid 4496:tid 716] AH00430: Parent: Child process 7728 exited successfully.
+[Fri Oct 08 08:47:35.619176 2021] [ssl:warn] [pid 4488:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 08 08:47:37.603537 2021] [mpm_winnt:notice] [pid 4488:tid 568] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 08 08:47:37.603537 2021] [mpm_winnt:notice] [pid 4488:tid 568] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 08 08:47:37.603537 2021] [core:notice] [pid 4488:tid 568] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 08 08:47:37.634786 2021] [mpm_winnt:notice] [pid 4488:tid 568] AH00418: Parent: Created child process 5904
+[Fri Oct 08 08:47:39.680317 2021] [ssl:warn] [pid 5904:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 08 08:47:39.899034 2021] [mpm_winnt:notice] [pid 5904:tid 668] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 08 18:12:12.934573 2021] [mpm_winnt:notice] [pid 4488:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 08 18:12:14.965852 2021] [mpm_winnt:notice] [pid 5904:tid 668] AH00364: Child: All worker threads have exited.
+[Fri Oct 08 18:12:15.075150 2021] [mpm_winnt:notice] [pid 4488:tid 568] AH00430: Parent: Child process 5904 exited successfully.
+[Tue Oct 12 08:54:04.023364 2021] [ssl:warn] [pid 4520:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 12 08:54:05.039054 2021] [mpm_winnt:notice] [pid 4520:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Oct 12 08:54:05.039054 2021] [mpm_winnt:notice] [pid 4520:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Oct 12 08:54:05.039054 2021] [core:notice] [pid 4520:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Oct 12 08:54:05.085869 2021] [mpm_winnt:notice] [pid 4520:tid 708] AH00418: Parent: Created child process 4704
+[Tue Oct 12 08:54:07.320242 2021] [ssl:warn] [pid 4704:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 12 08:54:07.554644 2021] [mpm_winnt:notice] [pid 4704:tid 636] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 12 18:10:11.847953 2021] [mpm_winnt:notice] [pid 4520:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 12 18:10:14.144844 2021] [mpm_winnt:notice] [pid 4704:tid 636] AH00364: Child: All worker threads have exited.
+[Tue Oct 12 18:10:15.644889 2021] [mpm_winnt:notice] [pid 4520:tid 708] AH00430: Parent: Child process 4704 exited successfully.
+[Tue Oct 12 21:01:35.758852 2021] [ssl:warn] [pid 4496:tid 768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 12 21:01:36.790090 2021] [mpm_winnt:notice] [pid 4496:tid 768] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Oct 12 21:01:36.790090 2021] [mpm_winnt:notice] [pid 4496:tid 768] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Oct 12 21:01:36.790090 2021] [core:notice] [pid 4496:tid 768] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Oct 12 21:01:36.836967 2021] [mpm_winnt:notice] [pid 4496:tid 768] AH00418: Parent: Created child process 652
+[Tue Oct 12 21:01:39.018232 2021] [ssl:warn] [pid 652:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 12 21:01:39.268250 2021] [mpm_winnt:notice] [pid 652:tid 584] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 12 22:10:05.185321 2021] [mpm_winnt:notice] [pid 4496:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 12 22:10:07.216506 2021] [mpm_winnt:notice] [pid 652:tid 584] AH00364: Child: All worker threads have exited.
+[Tue Oct 12 22:10:07.263416 2021] [mpm_winnt:notice] [pid 4496:tid 768] AH00430: Parent: Child process 652 exited successfully.
+[Wed Oct 13 08:59:34.803219 2021] [ssl:warn] [pid 4304:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 13 08:59:35.740742 2021] [mpm_winnt:notice] [pid 4304:tid 516] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 13 08:59:35.740742 2021] [mpm_winnt:notice] [pid 4304:tid 516] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 13 08:59:35.740742 2021] [core:notice] [pid 4304:tid 516] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 13 08:59:35.771981 2021] [mpm_winnt:notice] [pid 4304:tid 516] AH00418: Parent: Created child process 6840
+[Wed Oct 13 08:59:37.662612 2021] [ssl:warn] [pid 6840:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 13 08:59:37.975092 2021] [mpm_winnt:notice] [pid 6840:tid 612] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 13 18:56:44.881095 2021] [mpm_winnt:notice] [pid 4304:tid 516] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 13 18:56:46.912321 2021] [mpm_winnt:notice] [pid 6840:tid 612] AH00364: Child: All worker threads have exited.
+[Wed Oct 13 18:56:47.318622 2021] [mpm_winnt:notice] [pid 4304:tid 516] AH00430: Parent: Child process 6840 exited successfully.
+[Thu Oct 14 08:58:05.812311 2021] [ssl:warn] [pid 4256:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 14 08:58:08.584000 2021] [mpm_winnt:notice] [pid 4256:tid 608] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Oct 14 08:58:08.584000 2021] [mpm_winnt:notice] [pid 4256:tid 608] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Oct 14 08:58:08.584000 2021] [core:notice] [pid 4256:tid 608] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Oct 14 08:58:08.630873 2021] [mpm_winnt:notice] [pid 4256:tid 608] AH00418: Parent: Created child process 6080
+[Thu Oct 14 08:58:10.693373 2021] [ssl:warn] [pid 6080:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 14 08:58:10.896500 2021] [mpm_winnt:notice] [pid 6080:tid 696] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 14 18:53:38.864436 2021] [mpm_winnt:notice] [pid 4256:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 14 18:53:41.051946 2021] [mpm_winnt:notice] [pid 6080:tid 696] AH00364: Child: All worker threads have exited.
+[Thu Oct 14 18:53:41.505112 2021] [mpm_winnt:notice] [pid 4256:tid 608] AH00430: Parent: Child process 6080 exited successfully.
+[Fri Oct 15 09:01:48.838567 2021] [ssl:warn] [pid 4376:tid 680] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 09:01:50.651050 2021] [mpm_winnt:notice] [pid 4376:tid 680] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 15 09:01:50.651050 2021] [mpm_winnt:notice] [pid 4376:tid 680] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 15 09:01:50.651050 2021] [core:notice] [pid 4376:tid 680] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 15 09:01:50.697932 2021] [mpm_winnt:notice] [pid 4376:tid 680] AH00418: Parent: Created child process 3160
+[Fri Oct 15 09:01:52.987696 2021] [ssl:warn] [pid 3160:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 09:01:55.378322 2021] [mpm_winnt:notice] [pid 3160:tid 540] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 15 18:24:08.200333 2021] [mpm_winnt:notice] [pid 4376:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 15 18:24:10.247299 2021] [mpm_winnt:notice] [pid 3160:tid 540] AH00364: Child: All worker threads have exited.
+[Fri Oct 15 18:24:10.825460 2021] [mpm_winnt:notice] [pid 4376:tid 680] AH00430: Parent: Child process 3160 exited successfully.
+[Fri Oct 15 18:25:09.018176 2021] [ssl:warn] [pid 4064:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 18:25:10.268176 2021] [mpm_winnt:notice] [pid 4064:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 15 18:25:10.268176 2021] [mpm_winnt:notice] [pid 4064:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 15 18:25:10.268176 2021] [core:notice] [pid 4064:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 15 18:25:10.299407 2021] [mpm_winnt:notice] [pid 4064:tid 724] AH00418: Parent: Created child process 6256
+[Fri Oct 15 18:25:12.677921 2021] [ssl:warn] [pid 6256:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 18:25:12.896674 2021] [mpm_winnt:notice] [pid 6256:tid 628] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 15 18:25:22.130212 2021] [mpm_winnt:notice] [pid 4064:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 15 18:25:24.255214 2021] [mpm_winnt:notice] [pid 6256:tid 628] AH00364: Child: All worker threads have exited.
+[Fri Oct 15 18:25:24.270840 2021] [mpm_winnt:notice] [pid 4064:tid 724] AH00430: Parent: Child process 6256 exited successfully.
+[Fri Oct 15 19:23:39.160824 2021] [ssl:warn] [pid 4352:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 19:23:40.692049 2021] [mpm_winnt:notice] [pid 4352:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 15 19:23:40.692049 2021] [mpm_winnt:notice] [pid 4352:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 15 19:23:40.692049 2021] [core:notice] [pid 4352:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 15 19:23:40.723349 2021] [mpm_winnt:notice] [pid 4352:tid 724] AH00418: Parent: Created child process 2776
+[Fri Oct 15 19:23:43.151998 2021] [ssl:warn] [pid 2776:tid 700] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 15 19:23:44.024761 2021] [mpm_winnt:notice] [pid 2776:tid 700] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 15 19:25:13.157029 2021] [mpm_winnt:notice] [pid 4352:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 15 19:25:15.188297 2021] [mpm_winnt:notice] [pid 2776:tid 700] AH00364: Child: All worker threads have exited.
+[Fri Oct 15 19:25:15.235148 2021] [mpm_winnt:notice] [pid 4352:tid 724] AH00430: Parent: Child process 2776 exited successfully.
+[Mon Oct 18 08:52:48.224776 2021] [ssl:warn] [pid 4528:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 18 08:52:50.006022 2021] [mpm_winnt:notice] [pid 4528:tid 708] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Oct 18 08:52:50.006022 2021] [mpm_winnt:notice] [pid 4528:tid 708] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Oct 18 08:52:50.006022 2021] [core:notice] [pid 4528:tid 708] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Oct 18 08:52:50.037272 2021] [mpm_winnt:notice] [pid 4528:tid 708] AH00418: Parent: Created child process 7308
+[Mon Oct 18 08:52:52.271648 2021] [ssl:warn] [pid 7308:tid 592] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 18 08:52:52.443523 2021] [mpm_winnt:notice] [pid 7308:tid 592] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 18 18:17:04.045610 2021] [mpm_winnt:notice] [pid 4528:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 18 18:17:06.108060 2021] [mpm_winnt:notice] [pid 7308:tid 592] AH00364: Child: All worker threads have exited.
+[Mon Oct 18 18:17:06.295560 2021] [mpm_winnt:notice] [pid 4528:tid 708] AH00430: Parent: Child process 7308 exited successfully.
+[Tue Oct 19 09:09:38.679032 2021] [ssl:warn] [pid 4424:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 19 09:09:40.241517 2021] [mpm_winnt:notice] [pid 4424:tid 724] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Oct 19 09:09:40.241517 2021] [mpm_winnt:notice] [pid 4424:tid 724] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Oct 19 09:09:40.241517 2021] [core:notice] [pid 4424:tid 724] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Oct 19 09:09:40.272770 2021] [mpm_winnt:notice] [pid 4424:tid 724] AH00418: Parent: Created child process 7020
+[Tue Oct 19 09:09:42.522767 2021] [ssl:warn] [pid 7020:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 19 09:09:42.741517 2021] [mpm_winnt:notice] [pid 7020:tid 632] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 19 18:23:07.531703 2021] [mpm_winnt:notice] [pid 4424:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 19 18:23:09.609767 2021] [mpm_winnt:notice] [pid 7020:tid 632] AH00364: Child: All worker threads have exited.
+[Tue Oct 19 18:23:10.281635 2021] [mpm_winnt:notice] [pid 4424:tid 724] AH00430: Parent: Child process 7020 exited successfully.
+[Wed Oct 20 09:13:15.468460 2021] [ssl:warn] [pid 4520:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 20 09:13:16.484082 2021] [mpm_winnt:notice] [pid 4520:tid 704] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 20 09:13:16.484082 2021] [mpm_winnt:notice] [pid 4520:tid 704] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 20 09:13:16.484082 2021] [core:notice] [pid 4520:tid 704] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 20 09:13:16.499713 2021] [mpm_winnt:notice] [pid 4520:tid 704] AH00418: Parent: Created child process 6320
+[Wed Oct 20 09:13:18.343460 2021] [ssl:warn] [pid 6320:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 20 09:13:18.609116 2021] [mpm_winnt:notice] [pid 6320:tid 616] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 20 18:40:09.970501 2021] [mpm_winnt:notice] [pid 4520:tid 704] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 20 18:40:12.064259 2021] [mpm_winnt:notice] [pid 6320:tid 616] AH00364: Child: All worker threads have exited.
+[Wed Oct 20 18:40:12.829889 2021] [mpm_winnt:notice] [pid 4520:tid 704] AH00430: Parent: Child process 6320 exited successfully.
+[Thu Oct 21 08:42:46.902185 2021] [ssl:warn] [pid 4516:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 21 08:42:47.792803 2021] [mpm_winnt:notice] [pid 4516:tid 660] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Oct 21 08:42:47.792803 2021] [mpm_winnt:notice] [pid 4516:tid 660] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Oct 21 08:42:47.792803 2021] [core:notice] [pid 4516:tid 660] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Oct 21 08:42:47.824053 2021] [mpm_winnt:notice] [pid 4516:tid 660] AH00418: Parent: Created child process 1312
+[Thu Oct 21 08:42:50.028878 2021] [ssl:warn] [pid 1312:tid 576] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 21 08:42:50.357000 2021] [mpm_winnt:notice] [pid 1312:tid 576] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 21 18:15:15.647636 2021] [mpm_winnt:notice] [pid 4516:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 21 18:15:17.772644 2021] [mpm_winnt:notice] [pid 1312:tid 576] AH00364: Child: All worker threads have exited.
+[Thu Oct 21 18:15:18.038258 2021] [mpm_winnt:notice] [pid 4516:tid 660] AH00430: Parent: Child process 1312 exited successfully.
+[Fri Oct 22 08:59:17.806740 2021] [ssl:warn] [pid 4452:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 22 08:59:19.103578 2021] [mpm_winnt:notice] [pid 4452:tid 660] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Fri Oct 22 08:59:19.103578 2021] [mpm_winnt:notice] [pid 4452:tid 660] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Fri Oct 22 08:59:19.103578 2021] [core:notice] [pid 4452:tid 660] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Fri Oct 22 08:59:19.119204 2021] [mpm_winnt:notice] [pid 4452:tid 660] AH00418: Parent: Created child process 6188
+[Fri Oct 22 08:59:21.431705 2021] [ssl:warn] [pid 6188:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 22 08:59:21.650452 2021] [mpm_winnt:notice] [pid 6188:tid 672] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 22 18:26:17.102621 2021] [mpm_winnt:notice] [pid 4452:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 22 18:26:19.133924 2021] [mpm_winnt:notice] [pid 6188:tid 672] AH00364: Child: All worker threads have exited.
+[Fri Oct 22 18:26:19.586968 2021] [mpm_winnt:notice] [pid 4452:tid 660] AH00430: Parent: Child process 6188 exited successfully.
+[Mon Oct 25 08:54:15.195477 2021] [ssl:warn] [pid 4552:tid 864] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 25 08:54:16.632983 2021] [mpm_winnt:notice] [pid 4552:tid 864] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Mon Oct 25 08:54:16.632983 2021] [mpm_winnt:notice] [pid 4552:tid 864] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Mon Oct 25 08:54:16.632983 2021] [core:notice] [pid 4552:tid 864] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Mon Oct 25 08:54:16.679862 2021] [mpm_winnt:notice] [pid 4552:tid 864] AH00418: Parent: Created child process 3512
+[Mon Oct 25 08:54:18.903958 2021] [ssl:warn] [pid 3512:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 25 08:54:20.216456 2021] [mpm_winnt:notice] [pid 3512:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 25 18:22:01.106640 2021] [mpm_winnt:notice] [pid 4552:tid 864] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 25 18:22:03.216074 2021] [mpm_winnt:notice] [pid 3512:tid 612] AH00364: Child: All worker threads have exited.
+[Mon Oct 25 18:22:03.981674 2021] [mpm_winnt:notice] [pid 4552:tid 864] AH00430: Parent: Child process 3512 exited successfully.
+[Tue Oct 26 08:44:47.000429 2021] [ssl:warn] [pid 4048:tid 532] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 26 08:44:47.937913 2021] [mpm_winnt:notice] [pid 4048:tid 532] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Tue Oct 26 08:44:47.937913 2021] [mpm_winnt:notice] [pid 4048:tid 532] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Tue Oct 26 08:44:47.937913 2021] [core:notice] [pid 4048:tid 532] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Tue Oct 26 08:44:47.969165 2021] [mpm_winnt:notice] [pid 4048:tid 532] AH00418: Parent: Created child process 6696
+[Tue Oct 26 08:44:49.812910 2021] [ssl:warn] [pid 6696:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Oct 26 08:44:50.062913 2021] [mpm_winnt:notice] [pid 6696:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 26 18:04:06.075546 2021] [mpm_winnt:notice] [pid 4048:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 26 18:04:08.341261 2021] [mpm_winnt:notice] [pid 6696:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Oct 26 18:04:09.653673 2021] [mpm_winnt:notice] [pid 4048:tid 532] AH00430: Parent: Child process 6696 exited successfully.
+[Wed Oct 27 09:59:41.234560 2021] [ssl:warn] [pid 4416:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 27 09:59:43.593948 2021] [mpm_winnt:notice] [pid 4416:tid 728] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Wed Oct 27 09:59:43.593948 2021] [mpm_winnt:notice] [pid 4416:tid 728] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Wed Oct 27 09:59:43.593948 2021] [core:notice] [pid 4416:tid 728] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Wed Oct 27 09:59:43.625183 2021] [mpm_winnt:notice] [pid 4416:tid 728] AH00418: Parent: Created child process 7672
+[Wed Oct 27 09:59:45.819294 2021] [ssl:warn] [pid 7672:tid 572] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 27 09:59:46.584923 2021] [mpm_winnt:notice] [pid 7672:tid 572] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 27 18:50:18.106452 2021] [mpm_winnt:notice] [pid 4416:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 27 18:50:20.137721 2021] [mpm_winnt:notice] [pid 7672:tid 572] AH00364: Child: All worker threads have exited.
+[Wed Oct 27 18:50:20.528330 2021] [mpm_winnt:notice] [pid 4416:tid 728] AH00430: Parent: Child process 7672 exited successfully.
+[Thu Oct 28 08:58:00.672508 2021] [ssl:warn] [pid 4360:tid 580] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 28 08:58:01.672512 2021] [mpm_winnt:notice] [pid 4360:tid 580] AH00455: Apache/2.4.6 (Win32) OpenSSL/0.9.8y configured -- resuming normal operations
+[Thu Oct 28 08:58:01.672512 2021] [mpm_winnt:notice] [pid 4360:tid 580] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:02:15
+[Thu Oct 28 08:58:01.672512 2021] [core:notice] [pid 4360:tid 580] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Oct 28 08:58:01.703761 2021] [mpm_winnt:notice] [pid 4360:tid 580] AH00418: Parent: Created child process 7220
+[Thu Oct 28 08:58:04.909807 2021] [ssl:warn] [pid 7220:tid 196] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Oct 28 08:58:05.097305 2021] [mpm_winnt:notice] [pid 7220:tid 196] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 28 18:40:28.993757 2021] [mpm_winnt:notice] [pid 4360:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 28 18:40:31.025010 2021] [mpm_winnt:notice] [pid 7220:tid 196] AH00364: Child: All worker threads have exited.
+[Thu Oct 28 18:40:31.509395 2021] [mpm_winnt:notice] [pid 4360:tid 580] AH00430: Parent: Child process 7220 exited successfully.
+[Thu Dec 23 16:50:11.619527 2021] [ssl:warn] [pid 7184:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 23 16:50:12.705846 2021] [mpm_winnt:notice] [pid 7184:tid 604] AH00455: Apache/2.4.52 (Win32) OpenSSL/1.1.1m configured -- resuming normal operations
+[Thu Dec 23 16:50:12.705846 2021] [mpm_winnt:notice] [pid 7184:tid 604] AH00456: Server built: Dec 17 2021 15:03:08
+[Thu Dec 23 16:50:12.705846 2021] [core:notice] [pid 7184:tid 604] AH00094: Command line: 'httpd -d C:/wamp/apache2'
+[Thu Dec 23 16:50:12.724837 2021] [mpm_winnt:notice] [pid 7184:tid 604] AH00418: Parent: Created child process 17364
+Apache server interrupted...
+021] [ssl:warn] [pid 17364:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 23 16:50:14.013624 2021] [mpm_winnt:notice] [pid 17364:tid 360] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 23 16:50:31.556271 2021] [mpm_winnt:notice] [pid 7184:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Thu Dec 23 16:50:33.567564 2021] [mpm_winnt:notice] [pid 17364:tid 360] AH00364: Child: All worker threads have exited.
+[Thu Dec 23 16:50:33.607429 2021] [mpm_winnt:notice] [pid 7184:tid 604] AH00430: Parent: Child process 17364 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 13708:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 23 16:50:57.179389 2021] [mpm_winnt:notice] [pid 13708:tid 692] AH00455: Apache/2.4.52 (Win32) OpenSSL/1.1.1m configured -- resuming normal operations
+[Thu Dec 23 16:50:57.179389 2021] [mpm_winnt:notice] [pid 13708:tid 692] AH00456: Server built: Dec 17 2021 15:03:08
+[Thu Dec 23 16:50:57.179389 2021] [core:notice] [pid 13708:tid 692] AH00094: Command line: 'C:\\wamp\\apache2\\bin\\httpd.exe -d C:/wamp/apache2'
+[Thu Dec 23 16:50:57.198387 2021] [mpm_winnt:notice] [pid 13708:tid 692] AH00418: Parent: Created child process 17024
+[Thu Dec 23 16:50:58.123488 2021] [ssl:warn] [pid 17024:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Dec 23 16:50:58.222470 2021] [mpm_winnt:notice] [pid 17024:tid 456] AH00354: Child: Starting 64 worker threads.

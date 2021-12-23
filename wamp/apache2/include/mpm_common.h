@@ -233,7 +233,7 @@ AP_DECLARE(gid_t) ap_gname2id(const char *name);
 int initgroups(const char *name, gid_t basegid);
 #endif
 
-#if !defined(WIN32) || defined(DOXYGEN)
+#if (!defined(WIN32) && !defined(NETWARE)) || defined(DOXYGEN)
 
 typedef struct ap_pod_t ap_pod_t;
 
@@ -278,7 +278,50 @@ AP_DECLARE(apr_status_t) ap_mpm_pod_signal(ap_pod_t *pod);
  */
 AP_DECLARE(void) ap_mpm_pod_killpg(ap_pod_t *pod, int num);
 
-#endif /* !WIN32 || DOXYGEN */
+#define AP_MPM_PODX_RESTART_CHAR '$'
+#define AP_MPM_PODX_GRACEFUL_CHAR '!'
+
+typedef enum { AP_MPM_PODX_NORESTART, AP_MPM_PODX_RESTART, AP_MPM_PODX_GRACEFUL } ap_podx_restart_t;
+
+/**
+ * Open the extended pipe-of-death.
+ * @param p The pool to use for allocating the pipe
+ * @param pod The pipe-of-death that is created.
+ */
+AP_DECLARE(apr_status_t) ap_mpm_podx_open(apr_pool_t *p, ap_pod_t **pod);
+
+/**
+ * Check the extended pipe to determine if the process has been signalled to die.
+ */
+AP_DECLARE(int) ap_mpm_podx_check(ap_pod_t *pod);
+
+/**
+ * Close the pipe-of-death
+ *
+ * @param pod The pipe-of-death to close.
+ */
+AP_DECLARE(apr_status_t) ap_mpm_podx_close(ap_pod_t *pod);
+
+/**
+ * Write data to the extended pipe-of-death, signalling that one child process
+ * should die.
+ * @param pod the pipe-of-death to write to.
+ * @param graceful restart-type
+ */
+AP_DECLARE(apr_status_t) ap_mpm_podx_signal(ap_pod_t *pod,
+                                            ap_podx_restart_t graceful);
+
+/**
+ * Write data to the extended pipe-of-death, signalling that all child process
+ * should die.
+ * @param pod The pipe-of-death to write to.
+ * @param num The number of child processes to kill
+ * @param graceful restart-type
+ */
+AP_DECLARE(void) ap_mpm_podx_killpg(ap_pod_t *pod, int num,
+                                    ap_podx_restart_t graceful);
+
+#endif /* (!WIN32 && !NETWARE) || DOXYGEN */
 
 /**
  * Check that exactly one MPM is loaded
@@ -344,7 +387,7 @@ extern const char *ap_mpm_set_thread_stacksize(cmd_parms *cmd, void *dummy,
 extern void ap_core_child_status(server_rec *s, pid_t pid, ap_generation_t gen,
                                  int slot, mpm_child_status status);
 
-#if AP_ENABLE_EXCEPTION_HOOK
+#if defined(AP_ENABLE_EXCEPTION_HOOK) && AP_ENABLE_EXCEPTION_HOOK
 extern const char *ap_mpm_set_exception_hook(cmd_parms *cmd, void *dummy,
                                              const char *arg);
 #endif
@@ -367,6 +410,56 @@ AP_DECLARE_HOOK(apr_status_t, mpm_register_timed_callback,
 
 /* get MPM name (e.g., "prefork" or "event") */
 AP_DECLARE_HOOK(const char *,mpm_get_name,(void))
+
+/**
+ * Notification that connection handling is suspending (disassociating from the
+ * current thread)
+ * @param c The current connection
+ * @param r The current request, or NULL if there is no active request
+ * @ingroup hooks
+ * @see ap_hook_resume_connection
+ * @note This hook is not implemented by MPMs like Prefork and Worker which 
+ * handle all processing of a particular connection on the same thread.
+ * @note This hook will be called on the thread that was previously
+ * processing the connection.
+ * @note This hook is not called at the end of connection processing.  This
+ * hook only notifies a module when processing of an active connection is
+ * suspended.
+ * @note Resumption and subsequent suspension of a connection solely to perform
+ * I/O by the MPM, with no execution of non-MPM code, may not necessarily result
+ * in a call to this hook.
+ */
+AP_DECLARE_HOOK(void, suspend_connection,
+                (conn_rec *c, request_rec *r))
+
+/**
+ * Notification that connection handling is resuming (associating with a thread)
+ * @param c The current connection
+ * @param r The current request, or NULL if there is no active request
+ * @ingroup hooks
+ * @see ap_hook_suspend_connection
+ * @note This hook is not implemented by MPMs like Prefork and Worker which 
+ * handle all processing of a particular connection on the same thread.
+ * @note This hook will be called on the thread that will resume processing
+ * the connection.
+ * @note This hook is not called at the beginning of connection processing.
+ * This hook only notifies a module when processing resumes for a
+ * previously-suspended connection.
+ * @note Resumption and subsequent suspension of a connection solely to perform
+ * I/O by the MPM, with no execution of non-MPM code, may not necessarily result
+ * in a call to this hook.
+ */
+AP_DECLARE_HOOK(void, resume_connection,
+                (conn_rec *c, request_rec *r))
+
+/**
+ * Notification that the child is stopping. If graceful, ongoing
+ * requests will be served.
+ * @param pchild The child pool
+ * @param graceful != 0 iff this is a graceful shutdown.
+ */
+AP_DECLARE_HOOK(void, child_stopping,
+                (apr_pool_t *pchild, int graceful))
 
 /* mutex type string for accept mutex, if any; MPMs should use the
  * same mutex type for ease of configuration

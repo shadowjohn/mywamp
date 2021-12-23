@@ -41,13 +41,12 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="Error en la longitud del contenido!" -->
+<!--#set var="TITLE" value="&iexcl;Error en la longitud del contenido!" -->
 <!--#include virtual="include/top.html" -->
 
-    Una solicitud con el m&eacute;todo <!--#echo encoding="none"
-var="REDIRECT_REQUEST_METHOD"-->
-    requiere que el contenido de la variable de los encabezados
-    <code>Content-Length</code> sea v&aacute;lida.
+    Una petici&oacute;n con el m&eacute;todo <!--#echo
+    var="REDIRECT_REQUEST_METHOD" -->  requiere que el encabezado 
+    <code>Content-Length</code> sea v&aacute;lido.
 
 <!--#include virtual="include/bottom.html" -->
 ----------es--
@@ -136,6 +135,19 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Feil Content-Length!"
+--><!--#include virtual="include/top.html" -->
+
+    En forespørsel med <!--#echo var="REDIRECT_REQUEST_METHOD" -->
+    metoden krever en korrekt <code>Content-Length</code> header.
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -188,6 +200,18 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Неверная длина Content-Length!"
+--><!--#include virtual="include/top.html" -->
+
+    Запрос с помощью метода <!--#echo var="REDIRECT_REQUEST_METHOD" -->
+    должен иметь правильное значение длины в поле <code>Content-Length</code>.
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -227,3 +251,29 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="错误的 Content-Length！"
+--><!--#include virtual="include/top.html" -->
+
+    对 <!--#echo var="REDIRECT_REQUEST_METHOD" --> 方法的请求必须带有有效的
+    <code>Content-Length</code> 头字段。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="錯誤的 Content-Length！"
+--><!--#include virtual="include/top.html" -->
+
+    對 <!--#echo var="REDIRECT_REQUEST_METHOD" --> 方法的請求必須帶有有效的
+    <code>Content-Length</code> 頭欄位。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--

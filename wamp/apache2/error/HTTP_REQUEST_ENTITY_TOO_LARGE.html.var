@@ -42,10 +42,10 @@ Body:----------en--
 Content-language: es
 Content-type: text/html
 Body:----------es--
-<!--#set var="TITLE" value="La entidad solicitada es demasiado grande!" -->
+<!--#set var="TITLE" value="&iexcl;La entidad solicitada es demasiado grande!" -->
 <!--#include virtual="include/top.html" -->
 
-   El m&eacute;todo <!--#echo encoding="none" var="REDIRECT_REQUEST_METHOD"-->
+   El m&eacute;todo <!--#echo var="REDIRECT_REQUEST_METHOD"-->
    no permite transmitir la informaci&oacute;n, o el
    volumen de la informaci&oacute;n excede los l&iacute;mites
    de capacidad del mismo.
@@ -135,6 +135,20 @@ Body:----------nl--
 <!--#include virtual="include/bottom.html" -->
 ----------nl--
 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="For stor enhet i forspørsel!"
+--><!--#include virtual="include/top.html" -->
+
+    <!--#echo var="REDIRECT_REQUEST_METHOD" --> metoden tillater ikke
+    de sendte data eller så overskrider datamengenden
+    kapasitetsbegrensningen.
+
+<!--#include virtual="include/bottom.html" -->
+----------nb--
+
 Content-language: pl
 Content-type: text/html; charset=UTF-8
 Body:----------pl--
@@ -190,6 +204,18 @@ Body:----------ro--
 <!--#include virtual="include/bottom.html" -->
 ----------ro--
 
+Content-language: ru
+Content-type: text/html; charset=UTF-8
+Body:----------ru--
+<!--#set var="TITLE" value="Размер запроса слишком велик!"
+--><!--#include virtual="include/top.html" -->
+
+    Тип передаваеиых данных запрещён методом <!--#echo var="REDIRECT_REQUEST_METHOD" -->,
+    или размера тела запроса слишком велик.
+
+<!--#include virtual="include/bottom.html" -->
+----------ru--
+
 Content-language: sr
 Content-type: text/html; charset=UTF-8
 Body:----------sr--
@@ -230,3 +256,27 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="CONTENT_LANGUAGE" value="zh-cn"
+--><!--#set var="TITLE" value="请求体过大！"
+--><!--#include virtual="include/top.html" -->
+
+    <!--#echo var="REDIRECT_REQUEST_METHOD" --> 方法不允许传输数据，或数据量超过容量限制。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="CONTENT_LANGUAGE" value="zh-tw"
+--><!--#set var="TITLE" value="請求體過大！"
+--><!--#include virtual="include/top.html" -->
+
+    <!--#echo var="REDIRECT_REQUEST_METHOD" --> 方法不允許傳輸資料，或資料量超過容量限制。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-tw--
